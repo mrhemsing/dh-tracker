@@ -299,7 +299,8 @@
 
           if (Number.isFinite(gapDays) && gapDays >= 90) {
             const arrowSvg = `<span class="gap-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h12"/><path d="M13 6l6 6-6 6"/></svg></span>`;
-            gapNoteEl.innerHTML = `<b>Data gap:</b> ${uniqueDates[0]} ${arrowSvg} ${uniqueDates[1]} (${gapDays} days)`;
+            const firstDateColor = '#14532d';
+            gapNoteEl.innerHTML = `<b>Data gap:</b> <span style="color:${firstDateColor}; font-weight:700">${uniqueDates[0]}</span> ${arrowSvg} ${uniqueDates[1]} (${gapDays} days)`;
             const grid = document.getElementById('chart-grid');
             if (grid && grid.parentElement) {
               grid.parentElement.insertBefore(gapNoteEl, grid.nextSibling);
