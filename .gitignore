@@ -1,9 +1,15 @@
 # Node
 node_modules/
 
-# Local medical data (DO NOT COMMIT)
+# Local medical data
 labs/
+
+# Default: derived data stays local.
 data/
+
+# Exception: we are intentionally hosting the dashboard dataset on Vercel.
+# This makes the site work without external storage.
+!/public/biomarkers.json
 
 # OS
 .DS_Store
