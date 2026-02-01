@@ -145,8 +145,13 @@
         const values = points.map(p => p.value);
         const rr = getRefRange(points);
 
-        const pointRadius = points.map(p => (p.isCritical ? 4 : 2));
-        const pointBg = points.map(p => (p.isCritical ? 'rgba(220, 38, 38, 0.95)' : '#0b63ce'));
+        const firstDate = points.length ? points[0].date : null;
+        const pointRadius = points.map(p => (p.date === firstDate ? 4 : (p.isCritical ? 4 : 2)));
+        const pointBg = points.map(p => (
+          p.date === firstDate
+            ? '#14532d' // dark green
+            : (p.isCritical ? 'rgba(220, 38, 38, 0.95)' : '#0b63ce')
+        ));
 
         return new Chart(canvas, {
           type: 'line',
