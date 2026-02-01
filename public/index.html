@@ -9,6 +9,7 @@
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
       h1 { color: #800020; }
       .muted { color: #666; }
+      .abbr { color: #555; font-weight: 500; }
       .grid { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 1200px; }
       .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; }
       canvas { max-width: 100%; }
@@ -24,44 +25,44 @@
     <div class="grid">
       <div class="row">
         <div class="card">
-          <h2>PLT (Platelets)</h2>
+          <h2>PLT <span class="abbr">(Platelets)</span></h2>
           <canvas id="plt"></canvas>
         </div>
         <div class="card">
-          <h2>WBC (White Blood Cells)</h2>
+          <h2>WBC <span class="abbr">(White Blood Cells)</span></h2>
           <canvas id="wbc"></canvas>
         </div>
       </div>
 
       <div class="row">
         <div class="card">
-          <h2>Hgb (Hemoglobin)</h2>
+          <h2>Hgb <span class="abbr">(Hemoglobin)</span></h2>
           <canvas id="hgb"></canvas>
         </div>
         <div class="card">
-          <h2>ANC (Absolute Neutrophil Count)</h2>
+          <h2>ANC <span class="abbr">(Absolute Neutrophil Count)</span></h2>
           <canvas id="anc"></canvas>
         </div>
       </div>
 
       <div class="row">
         <div class="card">
-          <h2>RBC (Red Blood Cells)</h2>
+          <h2>RBC <span class="abbr">(Red Blood Cells)</span></h2>
           <canvas id="rbc"></canvas>
         </div>
         <div class="card">
-          <h2>Hct (Hematocrit)</h2>
+          <h2>Hct <span class="abbr">(Hematocrit)</span></h2>
           <canvas id="hct"></canvas>
         </div>
       </div>
 
       <div class="row">
         <div class="card">
-          <h2>MCV (Mean Corpuscular Volume)</h2>
+          <h2>MCV <span class="abbr">(Mean Corpuscular Volume)</span></h2>
           <canvas id="mcv"></canvas>
         </div>
         <div class="card">
-          <h2>RDW (Red Cell Distribution Width)</h2>
+          <h2>RDW <span class="abbr">(Red Cell Distribution Width)</span></h2>
           <canvas id="rdw"></canvas>
         </div>
       </div>
