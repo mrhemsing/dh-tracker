@@ -20,7 +20,6 @@
       .legend-item { display: inline-flex; align-items: center; gap: 8px; }
       .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
       .legend-swatch.ref { background: rgba(46, 160, 67, 0.10); border: 1px solid rgba(46, 160, 67, 0.35); }
-      .legend-swatch.crit { background: rgba(220, 38, 38, 0.08); border: 1px solid rgba(220, 38, 38, 0.30); }
       canvas { max-width: 100%; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -34,7 +33,6 @@
     <p class="subtitle" style="color:#333">MyHealth Labs: February 1, 2025 – February 1, 2026</p>
     <div class="legend">
       <span class="legend-item"><span class="legend-swatch ref"></span><span>Reference Range</span></span>
-      <span class="legend-item"><span class="legend-swatch crit"></span><span>Critical (Outside Range)</span></span>
     </div>
     <div class="grid">
       <div class="row">
@@ -107,24 +105,10 @@
           const bottom = Math.min(chartArea.bottom, Math.max(yHi, yLo));
           if (bottom <= top) return;
 
-          // Critical zones (outside reference range)
-          ctx.save();
-          ctx.fillStyle = opts.criticalFill || 'rgba(220, 38, 38, 0.08)';
-
-          // Above range
-          if (top > chartArea.top) {
-            ctx.fillRect(chartArea.left, chartArea.top, chartArea.right - chartArea.left, top - chartArea.top);
-          }
-
-          // Below range
-          if (bottom < chartArea.bottom) {
-            ctx.fillRect(chartArea.left, bottom, chartArea.right - chartArea.left, chartArea.bottom - bottom);
-          }
-
           // Reference range
+          ctx.save();
           ctx.fillStyle = opts.fill || 'rgba(46, 160, 67, 0.10)';
           ctx.fillRect(chartArea.left, top, chartArea.right - chartArea.left, bottom - top);
-
           ctx.restore();
         }
       };
