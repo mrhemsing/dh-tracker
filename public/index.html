@@ -180,7 +180,11 @@
             scales: {
               x: {
                 type: 'category',
-                ticks: { maxTicksLimit: 12 },
+                ticks: {
+                  maxTicksLimit: 12,
+                  color: (ctx) => (ctx.tick && ctx.tick.label === firstDate ? '#14532d' : '#666'),
+                  font: (ctx) => (ctx.tick && ctx.tick.label === firstDate ? { weight: '700' } : {}),
+                },
               },
               y: { beginAtZero: false },
             },
