@@ -58,23 +58,30 @@
 
     <script>
       function mkChart(id, label, points) {
-        const ctx = document.getElementById(id);
-        const data = points.map(p => ({ x: p.date, y: p.value }));
-        return new Chart(ctx, {
+        const canvas = document.getElementById(id);
+        const labels = points.map(p => p.date);
+        const values = points.map(p => p.value);
+
+        return new Chart(canvas, {
           type: 'line',
-          data: { datasets: [{
-            label,
-            data,
-            parsing: false,
-            borderColor: '#0b63ce',
-            backgroundColor: 'rgba(11, 99, 206, 0.08)',
-            tension: 0.2,
-            pointRadius: 2,
-          }]},
+          data: {
+            labels,
+            datasets: [{
+              label,
+              data: values,
+              borderColor: '#0b63ce',
+              backgroundColor: 'rgba(11, 99, 206, 0.08)',
+              tension: 0.2,
+              pointRadius: 2,
+            }]
+          },
           options: {
             responsive: true,
             scales: {
-              x: { type: 'time', time: { unit: 'week' } },
+              x: {
+                type: 'category',
+                ticks: { maxTicksLimit: 12 },
+              },
               y: { beginAtZero: false },
             },
             plugins: { legend: { display: false } }
@@ -83,13 +90,23 @@
       }
 
       async function run() {
-        const res = await fetch('/api/biomarkers');
+        const statusEl = document.createElement('p');
+        statusEl.className = 'muted';
+        statusEl.id = 'status';
+        statusEl.textContent = 'Loading data…';
+        document.body.insertAdjacentElement('afterbegin', statusEl);
+
+        const res = await fetch('/api/biomarkers', { cache: 'no-store' });
         const json = await res.json();
+        const points = (json.points ?? []);
+
         const by = {};
-        for (const p of (json.points ?? [])) {
+        for (const p of points) {
           (by[p.name] ||= []).push(p);
         }
         for (const k of Object.keys(by)) by[k].sort((a,b) => a.date.localeCompare(b.date));
+
+        statusEl.textContent = `Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length})`;
 
         mkChart('plt', 'Platelets', by.Platelets ?? []);
         mkChart('wbc', 'WBC', by.WBC ?? []);
@@ -99,7 +116,7 @@
 
       run().catch(err => {
         console.error(err);
-        document.body.insertAdjacentHTML('beforeend', `<p style="color:red">Failed to load data. Run importer first.</p>`);
+        document.body.insertAdjacentHTML('beforeend', `<p style="color:red">Failed to load charts: ${String(err)}</p>`);
       });
     </script>
   </body>
