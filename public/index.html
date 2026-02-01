@@ -21,6 +21,7 @@
       .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
       .legend-swatch.ref { background: rgba(46, 160, 67, 0.10); border: 1px solid rgba(46, 160, 67, 0.35); }
       .legend-dot { width: 10px; height: 10px; border-radius: 999px; background: rgba(220, 38, 38, 0.95); display: inline-block; }
+      .gap-note { margin-top: 12px; color: #444; }
       canvas { max-width: 100%; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -36,7 +37,7 @@
       <span class="legend-item"><span class="legend-swatch ref"></span><span>Reference Range</span></span>
       <span class="legend-item"><span class="legend-dot"></span><span>Critical (per report)</span></span>
     </div>
-    <div class="grid">
+    <div class="grid" id="chart-grid">
       <div class="row">
         <div class="card">
           <h2>PLT <span class="abbr">(Platelets)</span></h2>
@@ -194,6 +195,11 @@
         statusEl.textContent = 'Loading data…';
         document.body.insertAdjacentElement('afterbegin', statusEl);
 
+        // Reserve a spot for the "first gap" note under the charts.
+        const gapNoteEl = document.createElement('div');
+        gapNoteEl.className = 'gap-note';
+        gapNoteEl.id = 'gap-note';
+
         const res = await fetch('/biomarkers.json', { cache: 'no-store' });
         const json = await res.json();
         const points = (json.points ?? []);
@@ -218,6 +224,22 @@
         mkChart('hct', 'Hematocrit', by.Hematocrit ?? []);
         mkChart('mcv', 'MCV', by.MCV ?? []);
         mkChart('rdw', 'RDW', by.RDW ?? []);
+
+        // Highlight the very first large gap (global across all points).
+        const uniqueDates = Array.from(new Set(points.map(p => p.date))).sort();
+        if (uniqueDates.length >= 2) {
+          const d0 = new Date(uniqueDates[0]);
+          const d1 = new Date(uniqueDates[1]);
+          const gapDays = Math.round((d1 - d0) / (1000 * 60 * 60 * 24));
+
+          if (Number.isFinite(gapDays) && gapDays >= 90) {
+            gapNoteEl.innerHTML = `<b>Data gap:</b> ${uniqueDates[0]} → ${uniqueDates[1]} (${gapDays} days). <span class="muted">First date is last normal blood results before he got sick.</span>`;
+            const grid = document.getElementById('chart-grid');
+            if (grid && grid.parentElement) {
+              grid.parentElement.insertBefore(gapNoteEl, grid.nextSibling);
+            }
+          }
+        }
       }
 
       run().catch(err => {
