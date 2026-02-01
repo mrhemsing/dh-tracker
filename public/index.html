@@ -233,7 +233,7 @@
           const gapDays = Math.round((d1 - d0) / (1000 * 60 * 60 * 24));
 
           if (Number.isFinite(gapDays) && gapDays >= 90) {
-            gapNoteEl.innerHTML = `<b>Data gap:</b> ${uniqueDates[0]} → ${uniqueDates[1]} (${gapDays} days). <span class="muted">First date is last normal blood results before he got sick.</span>`;
+            gapNoteEl.innerHTML = `<b>Data gap:</b> ${uniqueDates[0]} → ${uniqueDates[1]} (${gapDays} days).`;
             const grid = document.getElementById('chart-grid');
             if (grid && grid.parentElement) {
               grid.parentElement.insertBefore(gapNoteEl, grid.nextSibling);
