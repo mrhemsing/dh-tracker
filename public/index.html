@@ -101,12 +101,25 @@
       };
 
       function getRefRange(points) {
-        // Pick the first point that has both bounds.
+        // Prefer a full low+high reference range.
         for (const p of points) {
           if (typeof p.refLow === 'number' && typeof p.refHigh === 'number') {
             return { low: p.refLow, high: p.refHigh };
           }
         }
+
+        // Fall back to one-sided ranges (e.g. "<16.0") by inferring the other bound.
+        for (const p of points) {
+          if (typeof p.refHigh === 'number') {
+            // For things like RDW (%), a lower bound of 0 is reasonable.
+            return { low: 0, high: p.refHigh };
+          }
+          if (typeof p.refLow === 'number') {
+            const maxVal = Math.max(...points.map(x => Number(x.value)).filter(Number.isFinite));
+            return { low: p.refLow, high: Number.isFinite(maxVal) ? maxVal : null };
+          }
+        }
+
         return { low: null, high: null };
       }
 
