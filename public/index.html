@@ -90,12 +90,17 @@
           if (typeof lo !== 'number' || typeof hi !== 'number') return;
           if (!Number.isFinite(lo) || !Number.isFinite(hi)) return;
 
-          const yTop = y.getPixelForValue(hi);
-          const yBottom = y.getPixelForValue(lo);
+          const yHi = y.getPixelForValue(hi);
+          const yLo = y.getPixelForValue(lo);
+
+          // Clamp to chart area so we never paint into axis labels.
+          const top = Math.max(chartArea.top, Math.min(yHi, yLo));
+          const bottom = Math.min(chartArea.bottom, Math.max(yHi, yLo));
+          if (bottom <= top) return;
 
           ctx.save();
           ctx.fillStyle = opts.fill || 'rgba(46, 160, 67, 0.10)';
-          ctx.fillRect(chartArea.left, yTop, chartArea.right - chartArea.left, yBottom - yTop);
+          ctx.fillRect(chartArea.left, top, chartArea.right - chartArea.left, bottom - top);
           ctx.restore();
         }
       };
