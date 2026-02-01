@@ -237,7 +237,7 @@
         const lastReportIso = allDates.length ? allDates[allDates.length - 1] : null;
         const lastReportDate = lastReportIso ? new Date(lastReportIso + 'T00:00:00') : null;
         const lastUpdatedText = (lastReportDate && !Number.isNaN(lastReportDate.getTime()))
-          ? lastReportDate.toLocaleString(undefined, {
+          ? lastReportDate.toLocaleDateString('en-US', {
               year: 'numeric',
               month: isMobile ? 'short' : 'long',
               day: 'numeric'
