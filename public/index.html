@@ -170,6 +170,10 @@
         const res = await fetch('/biomarkers.json', { cache: 'no-store' });
         const json = await res.json();
         const points = (json.points ?? []);
+        const generatedAt = json.generatedAt ? new Date(json.generatedAt) : null;
+        const generatedAtText = (generatedAt && !Number.isNaN(generatedAt.getTime()))
+          ? generatedAt.toLocaleString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
+          : 'Unknown';
 
         const by = {};
         for (const p of points) {
@@ -177,7 +181,7 @@
         }
         for (const k of Object.keys(by)) by[k].sort((a,b) => a.date.localeCompare(b.date));
 
-        statusEl.textContent = `Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
+        statusEl.textContent = `Last Updated: ${generatedAtText} — Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
 
         mkChart('plt', 'Platelets', by.Platelets ?? []);
         mkChart('wbc', 'WBC', by.WBC ?? []);
