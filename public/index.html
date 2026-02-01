@@ -7,6 +7,7 @@
     <title>DMH Tracker</title>
     <style>
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
+      .bottom-spacer { height: 120px; }
       h1 { color: #800020; }
       .muted { color: #666; }
       .abbr { color: #555; font-weight: 500; }
@@ -179,5 +180,7 @@
         document.body.insertAdjacentHTML('beforeend', `<p style="color:red">Failed to load charts: ${String(err)}</p>`);
       });
     </script>
+
+    <div class="bottom-spacer"></div>
   </body>
 </html>
