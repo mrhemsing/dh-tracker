@@ -152,6 +152,14 @@
           },
           options: {
             responsive: true,
+            animation: {
+              duration: 1400,
+              easing: 'easeInOutQuart'
+            },
+            transitions: {
+              active: { animation: { duration: 400 } },
+              resize: { animation: { duration: 0 } },
+            },
             scales: {
               x: {
                 type: 'category',
