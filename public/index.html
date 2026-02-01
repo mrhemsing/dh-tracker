@@ -21,6 +21,7 @@
       @media (max-width: 600px) {
         .abbr { font-size: 0.9em; }
         #status { font-size: 0.92em; }
+        #status .loaded-line { display: inline-block; margin-top: 6px; }
         .subtitle-desktop { display: none; }
         .subtitle-mobile { display: inline; }
       }
@@ -242,7 +243,7 @@
         for (const k of Object.keys(by)) by[k].sort((a,b) => a.date.localeCompare(b.date));
 
         if (isMobile) {
-          statusEl.innerHTML = `Last Updated: ${generatedAtText}<br/>Loaded ${points.length} pts. (PLT: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hgb: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
+          statusEl.innerHTML = `Last Updated: ${generatedAtText}<br><span class="loaded-line">Loaded ${points.length} pts. (PLT: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hgb: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})</span>`;
         } else {
           statusEl.innerHTML = `Last Updated: ${generatedAtText}<br/>Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
         }
