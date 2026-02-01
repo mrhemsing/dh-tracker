@@ -207,7 +207,7 @@
                 ticks: {
                   maxTicksLimit: 12,
                   color: (ctx) => (ctx.tick && ctx.tick.label === firstDate ? '#14532d' : '#666'),
-                  font: (ctx) => (ctx.tick && ctx.tick.label === firstDate ? { weight: '700' } : {}),
+                  font: (ctx) => (ctx.tick && ctx.tick.label === firstDate ? {} : {}),
                 },
               },
               y: { beginAtZero: false },
@@ -300,7 +300,7 @@
           if (Number.isFinite(gapDays) && gapDays >= 90) {
             const arrowSvg = `<span class="gap-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h12"/><path d="M13 6l6 6-6 6"/></svg></span>`;
             const firstDateColor = '#14532d';
-            gapNoteEl.innerHTML = `<b>Data gap:</b> <span style="color:${firstDateColor}; font-weight:700">${uniqueDates[0]}</span> ${arrowSvg} ${uniqueDates[1]} (${gapDays} days)`;
+            gapNoteEl.innerHTML = `<b>Data gap:</b> <span style="color:${firstDateColor}">${uniqueDates[0]}</span> ${arrowSvg} ${uniqueDates[1]} (${gapDays} days)`;
             const grid = document.getElementById('chart-grid');
             if (grid && grid.parentElement) {
               grid.parentElement.insertBefore(gapNoteEl, grid.nextSibling);
