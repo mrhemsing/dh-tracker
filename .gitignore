@@ -1,0 +1,10 @@
+# Node
+node_modules/
+
+# Local medical data (DO NOT COMMIT)
+labs/
+data/
+
+# OS
+.DS_Store
+Thumbs.db

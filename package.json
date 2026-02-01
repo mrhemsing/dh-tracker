@@ -1,0 +1,27 @@
+{
+  "name": "dh-tracker",
+  "version": "1.0.0",
+  "description": "Local-first blood lab tracker + dashboard (for weekly results).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node apps/dashboard/server.mjs",
+    "import": "node scripts/import.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrhemsing/dh-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mrhemsing/dh-tracker/issues"
+  },
+  "homepage": "https://github.com/mrhemsing/dh-tracker#readme",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "express": "^4.22.1"
+  }
+}
