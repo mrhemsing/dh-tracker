@@ -16,6 +16,8 @@
       .subtitle { margin-top: 0; margin-bottom: 12px; }
       .grid { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 1200px; }
       .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; }
+      .legend { display: flex; align-items: center; gap: 8px; margin: 6px 0 14px; color: #333; }
+      .legend-swatch { width: 14px; height: 14px; border-radius: 3px; background: rgba(46, 160, 67, 0.10); border: 1px solid rgba(46, 160, 67, 0.35); }
       canvas { max-width: 100%; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -27,6 +29,7 @@
 
     <h2>CBC and Differential</h2>
     <p class="subtitle" style="color:#333">MyHealth Labs: February 1, 2025 – February 1, 2026</p>
+    <div class="legend"><span class="legend-swatch"></span><span>Reference Range</span></div>
     <div class="grid">
       <div class="row">
         <div class="card">
