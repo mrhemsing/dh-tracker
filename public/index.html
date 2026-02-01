@@ -47,8 +47,8 @@
 
     <h2>CBC and Differential</h2>
     <p class="subtitle" style="color:#333">
-      <span class="subtitle-desktop">MyHealth Labs: February 1, 2025 – February 1, 2026</span>
-      <span class="subtitle-mobile">MyHealth Labs: Feb 1, 2025 – Feb 1, 2026</span>
+      <span class="subtitle-desktop" id="range-desktop">MyHealth Labs: —</span>
+      <span class="subtitle-mobile" id="range-mobile">MyHealth Labs: —</span>
     </p>
     <div class="legend">
       <span class="legend-item"><span class="legend-swatch ref"></span><span>Reference Range</span></span>
@@ -249,6 +249,24 @@
           (by[p.name] ||= []).push(p);
         }
         for (const k of Object.keys(by)) by[k].sort((a,b) => a.date.localeCompare(b.date));
+
+        // Set subtitle date range from dataset (min/max report dates).
+        const firstReportIso = allDates.length ? allDates[0] : null;
+        const firstReportDate = firstReportIso ? new Date(firstReportIso + 'T00:00:00') : null;
+        const lastReportDateForRange = lastReportIso ? new Date(lastReportIso + 'T00:00:00') : null;
+
+        const rangeDesktop = (firstReportDate && lastReportDateForRange)
+          ? `MyHealth Labs: ${firstReportDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} – ${lastReportDateForRange.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`
+          : 'MyHealth Labs: —';
+
+        const rangeMobile = (firstReportDate && lastReportDateForRange)
+          ? `MyHealth Labs: ${firstReportDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })} – ${lastReportDateForRange.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}`
+          : 'MyHealth Labs: —';
+
+        const rd = document.getElementById('range-desktop');
+        const rm = document.getElementById('range-mobile');
+        if (rd) rd.textContent = rangeDesktop;
+        if (rm) rm.textContent = rangeMobile;
 
         if (isMobile) {
           statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br><span class="loaded-line">Loaded ${points.length} pts. (PLT: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hgb: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})</span>`;
