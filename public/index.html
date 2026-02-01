@@ -14,6 +14,16 @@
       .abbr { color: #555; font-weight: 500; }
       h2 { margin-bottom: 6px; }
       .subtitle { margin-top: 0; margin-bottom: 12px; }
+      .subtitle-desktop { display: inline; }
+      .subtitle-mobile { display: none; }
+
+      /* Mobile tweaks */
+      @media (max-width: 600px) {
+        .abbr { font-size: 0.9em; }
+        #status { font-size: 0.92em; }
+        .subtitle-desktop { display: none; }
+        .subtitle-mobile { display: inline; }
+      }
       .grid { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 1200px; }
       .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; }
       .legend { display: flex; align-items: center; gap: 16px; margin: 6px 0 14px; color: #333; }
@@ -32,7 +42,10 @@
     <h1>DMH Tracker</h1>
 
     <h2>CBC and Differential</h2>
-    <p class="subtitle" style="color:#333">MyHealth Labs: February 1, 2025 – February 1, 2026</p>
+    <p class="subtitle" style="color:#333">
+      <span class="subtitle-desktop">MyHealth Labs: February 1, 2025 – February 1, 2026</span>
+      <span class="subtitle-mobile">MyHealth Labs: Feb 1, 2025 – Feb 1, 2026</span>
+    </p>
     <div class="legend">
       <span class="legend-item"><span class="legend-swatch ref"></span><span>Reference Range</span></span>
       <span class="legend-item"><span class="legend-dot"></span><span>Critical (per report)</span></span>
@@ -213,8 +226,13 @@
         const json = await res.json();
         const points = (json.points ?? []);
         const generatedAt = json.generatedAt ? new Date(json.generatedAt) : null;
+        const isMobile = window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
         const generatedAtText = (generatedAt && !Number.isNaN(generatedAt.getTime()))
-          ? generatedAt.toLocaleString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
+          ? generatedAt.toLocaleString(undefined, {
+              year: 'numeric',
+              month: isMobile ? 'short' : 'long',
+              day: 'numeric'
+            })
           : 'Unknown';
 
         const by = {};
@@ -223,7 +241,11 @@
         }
         for (const k of Object.keys(by)) by[k].sort((a,b) => a.date.localeCompare(b.date));
 
-        statusEl.innerHTML = `Last Updated: ${generatedAtText}<br/>Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
+        if (isMobile) {
+          statusEl.innerHTML = `Last Updated: ${generatedAtText}<br/>Loaded ${points.length} pts. (PLT: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hgb: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
+        } else {
+          statusEl.innerHTML = `Last Updated: ${generatedAtText}<br/>Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
+        }
 
         mkChart('plt', 'Platelets', by.Platelets ?? []);
         mkChart('wbc', 'WBC', by.WBC ?? []);
