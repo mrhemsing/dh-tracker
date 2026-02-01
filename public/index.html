@@ -43,6 +43,28 @@
           <canvas id="anc"></canvas>
         </div>
       </div>
+
+      <div class="row">
+        <div class="card">
+          <h2>RBC</h2>
+          <canvas id="rbc"></canvas>
+        </div>
+        <div class="card">
+          <h2>Hematocrit</h2>
+          <canvas id="hct"></canvas>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <h2>MCV</h2>
+          <canvas id="mcv"></canvas>
+        </div>
+        <div class="card">
+          <h2>RDW</h2>
+          <canvas id="rdw"></canvas>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -50,10 +72,43 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1/dist/chartjs-adapter-luxon.umd.min.js"></script>
 
     <script>
+      const normalRangePlugin = {
+        id: 'normalRangePlugin',
+        beforeDraw(chart, args, opts) {
+          const { ctx, chartArea, scales } = chart;
+          const y = scales.y;
+          if (!y || opts == null) return;
+
+          const lo = opts.low;
+          const hi = opts.high;
+          if (typeof lo !== 'number' || typeof hi !== 'number') return;
+          if (!Number.isFinite(lo) || !Number.isFinite(hi)) return;
+
+          const yTop = y.getPixelForValue(hi);
+          const yBottom = y.getPixelForValue(lo);
+
+          ctx.save();
+          ctx.fillStyle = opts.fill || 'rgba(46, 160, 67, 0.10)';
+          ctx.fillRect(chartArea.left, yTop, chartArea.right - chartArea.left, yBottom - yTop);
+          ctx.restore();
+        }
+      };
+
+      function getRefRange(points) {
+        // Pick the first point that has both bounds.
+        for (const p of points) {
+          if (typeof p.refLow === 'number' && typeof p.refHigh === 'number') {
+            return { low: p.refLow, high: p.refHigh };
+          }
+        }
+        return { low: null, high: null };
+      }
+
       function mkChart(id, label, points) {
         const canvas = document.getElementById(id);
         const labels = points.map(p => p.date);
         const values = points.map(p => p.value);
+        const rr = getRefRange(points);
 
         return new Chart(canvas, {
           type: 'line',
@@ -77,8 +132,12 @@
               },
               y: { beginAtZero: false },
             },
-            plugins: { legend: { display: false } }
-          }
+            plugins: {
+              legend: { display: false },
+              normalRangePlugin: { low: rr.low, high: rr.high }
+            }
+          },
+          plugins: [normalRangePlugin]
         });
       }
 
@@ -99,12 +158,16 @@
         }
         for (const k of Object.keys(by)) by[k].sort((a,b) => a.date.localeCompare(b.date));
 
-        statusEl.textContent = `Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length})`;
+        statusEl.textContent = `Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
 
         mkChart('plt', 'Platelets', by.Platelets ?? []);
         mkChart('wbc', 'WBC', by.WBC ?? []);
         mkChart('hgb', 'Hemoglobin', by.Hemoglobin ?? []);
         mkChart('anc', 'ANC', by.ANC ?? []);
+        mkChart('rbc', 'RBC', by.RBC ?? []);
+        mkChart('hct', 'Hematocrit', by.Hematocrit ?? []);
+        mkChart('mcv', 'MCV', by.MCV ?? []);
+        mkChart('rdw', 'RDW', by.RDW ?? []);
       }
 
       run().catch(err => {

@@ -44,12 +44,58 @@ function parseReportDate(text) {
 }
 
 function extractResult(text, testName) {
-  // "Test Name Platelets Result 340 x10**9/L Reference Range"
-  // "Test Name Hematocrit Result 0.35 L/L Reference Range"
-  const re = new RegExp(`Test Name\\s+${escapeRegExp(testName)}\\s+Result\\s+([0-9.]+)\\s+([^\\s]+)`, 'i');
+  // Examples:
+  //  "Test Name Platelets Result 340 x10**9/L Reference Range (Units) 140-400 (x10**9/L)"
+  //  "Test Name RDW Result 21.9 % Reference Range (Units) <16.0 (%)"
+  //  "Test Name Hematocrit Result 0.35 L/L Reference Range (Units) 0.40-0.52 (L/L)"
+
+  const re = new RegExp(
+    `Test Name\\s+${escapeRegExp(testName)}\\s+Result\\s+([0-9.]+)\\s+([^\\s]+)` +
+    // optional reference range segment (we don't depend on exact units formatting)
+    `(?:\\s+Reference Range\\s*\\(Units\\)\\s+([^\\s]+)\\s*\\(([^)]+)\\))?`,
+    'i'
+  );
+
   const m = text.match(re);
   if (!m) return null;
-  return { value: Number(m[1]), units: m[2] };
+
+  const value = Number(m[1]);
+  const units = m[2];
+
+  // Parse reference range token if present.
+  // token examples: "4.0-11.0", "<16.0", ">=5" (unlikely), etc.
+  let refLow = null;
+  let refHigh = null;
+
+  const token = m[3];
+  if (token) {
+    const t = token.trim();
+
+    let mm = t.match(/^([0-9.]+)\-([0-9.]+)$/);
+    if (mm) {
+      refLow = Number(mm[1]);
+      refHigh = Number(mm[2]);
+    } else {
+      mm = t.match(/^<([0-9.]+)$/);
+      if (mm) {
+        refHigh = Number(mm[1]);
+      } else {
+        mm = t.match(/^<=([0-9.]+)$/);
+        if (mm) refHigh = Number(mm[1]);
+
+        mm = t.match(/^>([0-9.]+)$/);
+        if (mm) refLow = Number(mm[1]);
+
+        mm = t.match(/^>=([0-9.]+)$/);
+        if (mm) refLow = Number(mm[1]);
+      }
+    }
+
+    if (refLow !== null && !Number.isFinite(refLow)) refLow = null;
+    if (refHigh !== null && !Number.isFinite(refHigh)) refHigh = null;
+  }
+
+  return { value, units, refLow, refHigh };
 }
 
 async function extractPdfPagesText(pdfPath) {
@@ -89,6 +135,8 @@ async function parseMyHealthPdf(pdfPath, sourceFile) {
         date,
         value: r.value,
         units: r.units,
+        refLow: r.refLow,
+        refHigh: r.refHigh,
         source: sourceFile,
       });
     }
