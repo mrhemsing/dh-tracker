@@ -52,7 +52,11 @@ function extractResult(text, testName) {
   const re = new RegExp(
     `Test Name\\s+${escapeRegExp(testName)}\\s+Result\\s+([0-9.]+)\\s+([^\\s]+)` +
     // optional reference range segment (we don't depend on exact units formatting)
-    `(?:\\s+Reference Range\\s*\\(Units\\)\\s+([^\\s]+)\\s*\\(([^)]+)\\))?`,
+    `(?:\\s+Reference Range\\s*\\(Units\\)\\s+([^\\s]+)\\s*\\(([^)]+)\\))?` +
+    // optional abnormality segment
+    `(?:\\s+Abnormality\\s+(.+?))?` +
+    // stop at next test or footer
+    `(?=\\s+Test Name\\s+|\\s+MyHealth Records\\s+|\\s+Page:|$)`,
     'i'
   );
 
@@ -95,7 +99,15 @@ function extractResult(text, testName) {
     if (refHigh !== null && !Number.isFinite(refHigh)) refHigh = null;
   }
 
-  return { value, units, refLow, refHigh };
+  let abnormality = null;
+  if (m[5]) {
+    const a = m[5].trim();
+    if (a !== '-' && a !== '–') abnormality = a;
+  }
+
+  const isCritical = abnormality ? /\bcritical\b/i.test(abnormality) : false;
+
+  return { value, units, refLow, refHigh, abnormality, isCritical };
 }
 
 async function extractPdfPagesText(pdfPath) {
@@ -137,6 +149,8 @@ async function parseMyHealthPdf(pdfPath, sourceFile) {
         units: r.units,
         refLow: r.refLow,
         refHigh: r.refHigh,
+        abnormality: r.abnormality,
+        isCritical: r.isCritical,
         source: sourceFile,
       });
     }

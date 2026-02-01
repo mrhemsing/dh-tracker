@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-01T18:19:52.348Z",
+  "generatedAt": "2026-02-01T18:55:46.838Z",
   "points": [
     {
       "name": "ANC",
@@ -8,6 +8,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -17,6 +19,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -26,6 +30,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -35,6 +41,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -44,6 +52,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -53,6 +63,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -62,6 +74,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -71,6 +85,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -80,6 +96,8 @@
       "units": "x10**9/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -89,6 +107,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -98,6 +118,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -107,6 +129,8 @@
       "units": "x10**9/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -116,6 +140,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -125,6 +151,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -134,6 +162,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -143,6 +173,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -152,6 +184,8 @@
       "units": "x10**9/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -161,6 +195,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -170,6 +206,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -179,6 +217,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -188,6 +228,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -197,6 +239,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -206,6 +250,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -215,6 +261,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -224,6 +272,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -233,6 +283,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -242,6 +294,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -251,6 +305,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -260,6 +316,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -269,6 +327,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -278,6 +338,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -287,6 +349,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -296,6 +360,8 @@
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -305,6 +371,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -314,6 +382,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -323,6 +393,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -332,6 +404,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -341,6 +415,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -350,6 +426,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -359,6 +437,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -368,6 +448,8 @@
       "units": "L/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -377,6 +459,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -386,6 +470,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -395,6 +481,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -404,6 +492,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -413,6 +503,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -422,6 +514,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -431,6 +525,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -440,6 +536,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -449,6 +547,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -458,6 +558,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -467,6 +569,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -476,6 +580,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -485,6 +591,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -494,6 +602,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -503,6 +613,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -512,6 +624,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -521,6 +635,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -530,6 +646,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -539,6 +657,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -548,6 +668,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -557,6 +679,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -566,6 +690,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -575,6 +701,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -584,6 +712,8 @@
       "units": "L/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -593,6 +723,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -602,6 +734,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -611,6 +745,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -620,6 +756,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -629,6 +767,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -638,6 +778,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -647,6 +789,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -656,6 +800,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -665,6 +811,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -674,6 +822,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -683,6 +833,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -692,6 +844,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -701,6 +855,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -710,6 +866,8 @@
       "units": "L/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -719,6 +877,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -728,6 +888,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -737,6 +899,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -746,6 +910,8 @@
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -755,6 +921,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -764,6 +932,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -773,6 +943,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -782,6 +954,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -791,6 +965,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -800,6 +976,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -809,6 +987,8 @@
       "units": "g/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -818,6 +998,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -827,6 +1009,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -836,6 +1020,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -845,6 +1031,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -854,6 +1042,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -863,6 +1053,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -872,6 +1064,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -881,6 +1075,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -890,6 +1086,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -899,6 +1097,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -908,6 +1108,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -917,6 +1119,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -926,6 +1130,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -935,6 +1141,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -944,6 +1152,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -953,6 +1163,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -962,6 +1174,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -971,6 +1185,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -980,6 +1196,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -989,6 +1207,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -998,6 +1218,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1007,6 +1229,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1016,6 +1240,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1025,6 +1251,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1034,6 +1262,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1043,6 +1273,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1052,6 +1284,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1061,6 +1295,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1070,6 +1306,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1079,6 +1317,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1088,6 +1328,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1097,6 +1339,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1106,6 +1350,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1115,6 +1361,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1124,6 +1372,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1133,6 +1383,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1142,6 +1394,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1151,6 +1405,8 @@
       "units": "g/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1160,6 +1416,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1169,6 +1427,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1178,6 +1438,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1187,6 +1449,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1196,6 +1460,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1205,6 +1471,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1214,6 +1482,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1223,6 +1493,8 @@
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1232,6 +1504,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1241,6 +1515,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1250,6 +1526,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1259,6 +1537,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1268,6 +1548,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1277,6 +1559,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1286,6 +1570,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1295,6 +1581,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range Result Comment MCV result discrepant from previous result. Measured MCV may be affected by abnormalities in plasma osmolarity, red cell transfusion or red cell agglutination. If no apparent reason for discrepancy, suggest recollection. Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1304,6 +1592,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1313,6 +1603,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range Result Comment Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1322,6 +1614,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1331,6 +1625,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1340,6 +1636,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1349,6 +1647,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1358,6 +1658,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1367,6 +1669,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1376,6 +1680,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1385,6 +1691,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1394,6 +1702,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1403,6 +1713,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1412,6 +1724,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1421,6 +1735,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1430,6 +1746,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1439,6 +1757,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1448,6 +1768,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1457,6 +1779,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1466,6 +1790,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range Result Comment Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1475,6 +1801,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1484,6 +1812,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1493,6 +1823,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1502,6 +1834,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1511,6 +1845,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1520,6 +1856,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1529,6 +1867,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range Result Comment Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1538,6 +1878,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1547,6 +1889,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range Result Comment Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1556,6 +1900,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range Result Comment Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1565,6 +1911,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range Result Comment Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1574,6 +1922,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1583,6 +1933,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1592,6 +1944,8 @@
       "units": "fL",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1601,6 +1955,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1610,6 +1966,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1619,6 +1977,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1628,6 +1988,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1637,6 +1999,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1646,6 +2010,8 @@
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1655,6 +2021,8 @@
       "units": "10*9/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1664,6 +2032,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1673,6 +2043,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1682,6 +2054,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1691,6 +2065,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1700,6 +2076,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1709,6 +2087,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1718,6 +2098,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1727,6 +2109,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1736,6 +2120,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1745,6 +2131,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1754,6 +2142,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1763,6 +2153,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1772,6 +2164,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1781,6 +2175,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1790,6 +2186,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1799,6 +2197,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1808,6 +2208,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1817,6 +2219,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1826,6 +2230,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1835,6 +2241,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1844,6 +2252,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1853,6 +2263,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1862,6 +2274,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1871,6 +2285,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1880,6 +2296,8 @@
       "units": "x10**9/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1889,6 +2307,8 @@
       "units": "x10**9/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1898,6 +2318,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1907,6 +2329,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1916,6 +2340,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1925,6 +2351,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1934,6 +2362,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1943,6 +2373,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1952,6 +2384,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1961,6 +2395,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1970,6 +2406,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1979,6 +2417,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1988,6 +2428,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -1997,6 +2439,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2006,6 +2450,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2015,6 +2461,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2024,6 +2472,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2033,6 +2483,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2042,6 +2494,8 @@
       "units": "x10**9/L",
       "refLow": null,
       "refHigh": null,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2051,6 +2505,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2060,6 +2516,8 @@
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2069,6 +2527,8 @@
       "units": "10*12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2078,6 +2538,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2087,6 +2549,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2096,6 +2560,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2105,6 +2571,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2114,6 +2582,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2123,6 +2593,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2132,6 +2604,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2141,6 +2615,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2150,6 +2626,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2159,6 +2637,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2168,6 +2648,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2177,6 +2659,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2186,6 +2670,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2195,6 +2681,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2204,6 +2692,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2213,6 +2703,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2222,6 +2714,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2231,6 +2725,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2240,6 +2736,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2249,6 +2747,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2258,6 +2758,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2267,6 +2769,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2276,6 +2780,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2285,6 +2791,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2294,6 +2802,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2303,6 +2813,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2312,6 +2824,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2321,6 +2835,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2330,6 +2846,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2339,6 +2857,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2348,6 +2868,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2357,6 +2879,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2366,6 +2890,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2375,6 +2901,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2384,6 +2912,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2393,6 +2923,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2402,6 +2934,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2411,6 +2945,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2420,6 +2956,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2429,6 +2967,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2438,6 +2978,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2447,6 +2989,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2456,6 +3000,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2465,6 +3011,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2474,6 +3022,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2483,6 +3033,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2492,6 +3044,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2501,6 +3055,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2510,6 +3066,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2519,6 +3077,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2528,6 +3088,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2537,6 +3099,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2546,6 +3110,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2555,6 +3121,8 @@
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2564,6 +3132,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2573,6 +3143,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2582,6 +3154,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2591,6 +3165,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2600,6 +3176,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2609,6 +3187,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2618,6 +3198,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2627,6 +3209,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2636,6 +3220,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2645,6 +3231,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2654,6 +3242,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2663,6 +3253,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2672,6 +3264,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2681,6 +3275,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2690,6 +3286,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2699,6 +3297,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2708,6 +3308,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2717,6 +3319,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2726,6 +3330,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2735,6 +3341,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2744,6 +3352,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2753,6 +3363,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2762,6 +3374,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2771,6 +3385,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2780,6 +3396,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2789,6 +3407,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2798,6 +3418,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2807,6 +3429,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2816,6 +3440,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2825,6 +3451,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2834,6 +3462,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2843,6 +3473,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2852,6 +3484,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2861,6 +3495,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2870,6 +3506,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2879,6 +3517,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2888,6 +3528,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2897,6 +3539,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2906,6 +3550,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2915,6 +3561,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2924,6 +3572,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2933,6 +3583,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2942,6 +3594,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2951,6 +3605,8 @@
       "units": "%",
       "refLow": null,
       "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2960,6 +3616,8 @@
       "units": "10*9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2969,6 +3627,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2978,6 +3638,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2987,6 +3649,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2996,6 +3660,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3005,6 +3671,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3014,6 +3682,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3023,6 +3693,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range Result Comment The WBC result was generated on an analyzer that counts all nucleated cells and therefore will also count NRBCs if present.",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3032,6 +3704,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3041,6 +3715,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3050,6 +3726,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3059,6 +3737,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3068,6 +3748,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3077,6 +3759,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3086,6 +3770,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3095,6 +3781,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3104,6 +3792,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3113,6 +3803,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3122,6 +3814,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3131,6 +3825,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3140,6 +3836,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3149,6 +3847,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3158,6 +3858,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3167,6 +3869,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3176,6 +3880,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3185,6 +3891,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3194,6 +3902,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3203,6 +3913,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3212,6 +3924,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3221,6 +3935,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3230,6 +3946,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3239,6 +3957,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3248,6 +3968,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3257,6 +3979,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3266,6 +3990,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3275,6 +4001,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3284,6 +4012,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3293,6 +4023,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3302,6 +4034,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3311,6 +4045,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3320,6 +4056,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3329,6 +4067,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3338,6 +4078,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3347,6 +4089,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3356,6 +4100,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3365,6 +4111,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3374,6 +4122,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3383,6 +4133,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3392,6 +4144,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3401,6 +4155,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3410,6 +4166,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3419,6 +4177,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3428,6 +4188,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3437,6 +4199,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3446,6 +4210,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3455,6 +4221,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -3464,6 +4232,8 @@
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     }
   ],

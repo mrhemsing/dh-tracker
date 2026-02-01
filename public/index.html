@@ -20,6 +20,7 @@
       .legend-item { display: inline-flex; align-items: center; gap: 8px; }
       .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
       .legend-swatch.ref { background: rgba(46, 160, 67, 0.10); border: 1px solid rgba(46, 160, 67, 0.35); }
+      .legend-dot { width: 10px; height: 10px; border-radius: 999px; background: rgba(220, 38, 38, 0.95); display: inline-block; }
       canvas { max-width: 100%; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -33,6 +34,7 @@
     <p class="subtitle" style="color:#333">MyHealth Labs: February 1, 2025 – February 1, 2026</p>
     <div class="legend">
       <span class="legend-item"><span class="legend-swatch ref"></span><span>Reference Range</span></span>
+      <span class="legend-item"><span class="legend-dot"></span><span>Critical (per report)</span></span>
     </div>
     <div class="grid">
       <div class="row">
@@ -142,6 +144,9 @@
         const values = points.map(p => p.value);
         const rr = getRefRange(points);
 
+        const pointRadius = points.map(p => (p.isCritical ? 4 : 2));
+        const pointBg = points.map(p => (p.isCritical ? 'rgba(220, 38, 38, 0.95)' : '#0b63ce'));
+
         return new Chart(canvas, {
           type: 'line',
           data: {
@@ -152,7 +157,8 @@
               borderColor: '#0b63ce',
               backgroundColor: 'rgba(11, 99, 206, 0.08)',
               tension: 0.2,
-              pointRadius: 2,
+              pointRadius,
+              pointBackgroundColor: pointBg,
             }]
           },
           options: {
