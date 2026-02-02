@@ -106,37 +106,6 @@
           <canvas id="rdw"></canvas>
         </div>
       </div>
-
-      <h2 style="margin-top: 22px">Chemistry</h2>
-      <div class="row">
-        <div class="card">
-          <h2>ALB <span class="abbr">(Albumin)</span></h2>
-          <canvas id="alb"></canvas>
-        </div>
-        <div class="card">
-          <h2>TBil <span class="abbr">(Bilirubin, Total)</span></h2>
-          <canvas id="tbil"></canvas>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="card">
-          <h2>Ca <span class="abbr">(Calcium)</span></h2>
-          <canvas id="ca"></canvas>
-        </div>
-        <div class="card">
-          <h2>ALT <span class="abbr">(Alanine Aminotransferase)</span></h2>
-          <canvas id="alt"></canvas>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="card">
-          <h2>PO4 <span class="abbr">(Phosphate)</span></h2>
-          <canvas id="phos"></canvas>
-        </div>
-        <div class="card" style="visibility:hidden"></div>
-      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -321,12 +290,6 @@
         mkChart('hct', 'Hematocrit', by.Hematocrit ?? []);
         mkChart('mcv', 'MCV', by.MCV ?? []);
         mkChart('rdw', 'RDW', by.RDW ?? []);
-
-        mkChart('alb', 'Albumin', by.Albumin ?? []);
-        mkChart('tbil', 'Bilirubin, Total', by.BilirubinTotal ?? []);
-        mkChart('ca', 'Calcium', by.Calcium ?? []);
-        mkChart('alt', 'ALT', by.ALT ?? []);
-        mkChart('phos', 'Phosphate', by.Phosphate ?? []);
 
         // Highlight the very first large gap (global across all points).
         const uniqueDates = Array.from(new Set(points.map(p => p.date))).sort();
