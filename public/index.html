@@ -32,6 +32,7 @@
       }
       .grid { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 1200px; }
       .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; }
+      .card.placeholder { visibility: hidden; }
       .legend { display: flex; align-items: center; gap: 16px; margin: 0 0 14px; padding-top: 12px; color: #333; }
       .legend-item { display: inline-flex; align-items: center; gap: 8px; }
       .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
@@ -43,7 +44,11 @@
       canvas { max-width: 100%; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-      @media (max-width: 900px) { .row { grid-template-columns: 1fr; } }
+      @media (max-width: 900px) {
+        .row { grid-template-columns: 1fr; }
+        /* On small screens, hide placeholder cards so they don't create blank vertical gaps. */
+        .card.placeholder { display: none; }
+      }
     </style>
   </head>
   <body>
@@ -124,7 +129,7 @@
           <h2>Ca <span class="abbr">(Calcium)</span></h2>
           <canvas id="ca"></canvas>
         </div>
-        <div class="card" style="visibility:hidden"></div>
+        <div class="card placeholder"></div>
       </div>
 
       <div class="row">
@@ -132,7 +137,7 @@
           <h2>PO4 <span class="abbr">(Phosphate)</span></h2>
           <canvas id="phos"></canvas>
         </div>
-        <div class="card" style="visibility:hidden"></div>
+        <div class="card placeholder"></div>
       </div>
     </div>
 
