@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-02T18:42:09.864Z",
+  "generatedAt": "2026-02-02T18:47:41.480Z",
   "points": [
     {
       "name": "Albumin",
@@ -80,6 +80,28 @@
     },
     {
       "name": "ANC",
+      "date": "2025-02-25",
+      "value": 2.5,
+      "units": "10*9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-07-18",
+      "value": 3.3,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
       "date": "2025-07-21",
       "value": 4.6,
       "units": "x10**9/L",
@@ -146,6 +168,39 @@
     },
     {
       "name": "ANC",
+      "date": "2025-08-20",
+      "value": 1.6,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-08-21",
+      "value": 1.4,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-08-22",
+      "value": 1.2,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
       "date": "2025-08-25",
       "value": 2.7,
       "units": "x10**9/L",
@@ -157,8 +212,30 @@
     },
     {
       "name": "ANC",
+      "date": "2025-08-27",
+      "value": 1.9,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
       "date": "2025-08-29",
       "value": 2.2,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-02",
+      "value": 2.1,
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
@@ -190,8 +267,74 @@
     },
     {
       "name": "ANC",
+      "date": "2025-09-05",
+      "value": 2.2,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-06",
+      "value": 1.8,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
       "date": "2025-09-07",
       "value": 2.2,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-08",
+      "value": 1.9,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-09",
+      "value": 2.2,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-10",
+      "value": 2.1,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-11",
+      "value": 2.3,
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
@@ -223,8 +366,63 @@
     },
     {
       "name": "ANC",
+      "date": "2025-09-14",
+      "value": 2.7,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-15",
+      "value": 2.1,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-17",
+      "value": 2.9,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
       "date": "2025-09-18",
       "value": 2.8,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-19",
+      "value": 3.3,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-20",
+      "value": 3.2,
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
@@ -269,6 +467,17 @@
       "name": "ANC",
       "date": "2025-09-25",
       "value": 3,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-09-26",
+      "value": 2.1,
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
@@ -324,6 +533,17 @@
       "name": "ANC",
       "date": "2025-10-04",
       "value": 4.2,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2025-10-14",
+      "value": 6.3,
       "units": "x10**9/L",
       "refLow": 1.8,
       "refHigh": 7.5,
@@ -440,6 +660,17 @@
       "abnormality": null,
       "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2026-02-02",
+      "value": 2.6,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
     },
     {
       "name": "BilirubinTotal",
@@ -740,6 +971,17 @@
     },
     {
       "name": "Hematocrit",
+      "date": "2025-07-18",
+      "value": 0.4,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
       "date": "2025-07-21",
       "value": 0.35,
       "units": "L/L",
@@ -775,6 +1017,17 @@
       "name": "Hematocrit",
       "date": "2025-08-05",
       "value": 0.38,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
+      "date": "2025-08-12",
+      "value": 0.36,
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
@@ -993,6 +1246,17 @@
     },
     {
       "name": "Hematocrit",
+      "date": "2025-09-15",
+      "value": 0.32,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
       "date": "2025-09-16",
       "value": 0.29,
       "units": "L/L",
@@ -1004,8 +1268,41 @@
     },
     {
       "name": "Hematocrit",
+      "date": "2025-09-17",
+      "value": 0.27,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
       "date": "2025-09-18",
       "value": 0.27,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
+      "date": "2025-09-19",
+      "value": 0.26,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
+      "date": "2025-09-20",
+      "value": 0.26,
       "units": "L/L",
       "refLow": 0.4,
       "refHigh": 0.52,
@@ -1076,6 +1373,17 @@
       "refLow": null,
       "refHigh": null,
       "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
+      "date": "2025-09-27",
+      "value": 0.27,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
       "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
@@ -1191,6 +1499,17 @@
     },
     {
       "name": "Hematocrit",
+      "date": "2025-11-10",
+      "value": 0.31,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
       "date": "2025-11-17",
       "value": 0.32,
       "units": "L/L",
@@ -1276,6 +1595,17 @@
       "abnormality": "Below normal range",
       "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hematocrit",
+      "date": "2026-02-02",
+      "value": 0.36,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
     },
     {
       "name": "Hemoglobin",
@@ -1368,7 +1698,7 @@
     {
       "name": "Hemoglobin",
       "date": "2025-08-21",
-      "value": 88,
+      "value": 84,
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
@@ -1565,6 +1895,17 @@
     },
     {
       "name": "Hemoglobin",
+      "date": "2025-09-15",
+      "value": 104,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hemoglobin",
       "date": "2025-09-16",
       "value": 92,
       "units": "g/L",
@@ -1578,6 +1919,28 @@
       "name": "Hemoglobin",
       "date": "2025-09-18",
       "value": 92,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hemoglobin",
+      "date": "2025-09-19",
+      "value": 86,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Hemoglobin",
+      "date": "2025-09-20",
+      "value": 85,
       "units": "g/L",
       "refLow": 135,
       "refHigh": 175,
@@ -1861,6 +2224,17 @@
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
+      "name": "Hemoglobin",
+      "date": "2026-02-02",
+      "value": 110,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
+    },
+    {
       "name": "MCV",
       "date": "2025-02-25",
       "value": 99,
@@ -1868,6 +2242,17 @@
       "refLow": 80,
       "refHigh": 100,
       "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2025-07-18",
+      "value": 104,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
       "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
@@ -1917,6 +2302,17 @@
     },
     {
       "name": "MCV",
+      "date": "2025-08-12",
+      "value": 103,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
       "date": "2025-08-20",
       "value": 101,
       "units": "fL",
@@ -1929,7 +2325,18 @@
     {
       "name": "MCV",
       "date": "2025-08-21",
-      "value": 99,
+      "value": 100,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2025-08-22",
+      "value": 100,
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
@@ -2115,8 +2522,30 @@
     },
     {
       "name": "MCV",
+      "date": "2025-09-15",
+      "value": 103,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
       "date": "2025-09-16",
       "value": 103,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2025-09-17",
+      "value": 101,
       "units": "fL",
       "refLow": 80,
       "refHigh": 100,
@@ -2132,6 +2561,28 @@
       "refLow": 80,
       "refHigh": 100,
       "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2025-09-19",
+      "value": 99,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2025-09-20",
+      "value": 102,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
       "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
@@ -2187,6 +2638,28 @@
       "refLow": 80,
       "refHigh": 100,
       "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2025-09-26",
+      "value": 104,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2025-09-27",
+      "value": 106,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range Result Comment Macrocytosis. May be due to Vitamin B12 or folate deficiency, liver disease, hypothyroidism or drug effect. In older individuals, consider myelodysplasia if persistent & accompanied by cytopenia(s).",
       "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
@@ -2302,6 +2775,17 @@
     },
     {
       "name": "MCV",
+      "date": "2025-11-10",
+      "value": 96,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "MCV",
       "date": "2025-11-17",
       "value": 95,
       "units": "fL",
@@ -2378,6 +2862,17 @@
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
+      "name": "MCV",
+      "date": "2026-02-02",
+      "value": 85,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
+    },
+    {
       "name": "Phosphate",
       "date": "2025-02-25",
       "value": 0.94,
@@ -2430,6 +2925,17 @@
       "refHigh": null,
       "abnormality": null,
       "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-07-18",
+      "value": 2,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2512,12 +3018,23 @@
     {
       "name": "Platelets",
       "date": "2025-08-21",
-      "value": 1,
+      "value": 2,
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
       "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
       "isCritical": true,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-08-22",
+      "value": 10,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Below normal range",
+      "isCritical": false,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2529,6 +3046,17 @@
       "refHigh": 400,
       "abnormality": "Below normal range",
       "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-08-27",
+      "value": 10,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2687,7 +3215,29 @@
     },
     {
       "name": "Platelets",
+      "date": "2025-09-15",
+      "value": 0,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
       "date": "2025-09-16",
+      "value": 0,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-09-17",
       "value": 0,
       "units": "x10**9/L",
       "refLow": 140,
@@ -2705,6 +3255,28 @@
       "refHigh": null,
       "abnormality": null,
       "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-09-19",
+      "value": 0,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-09-20",
+      "value": 0,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
@@ -2744,6 +3316,28 @@
       "name": "Platelets",
       "date": "2025-09-25",
       "value": 2,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-09-26",
+      "value": 2,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-09-27",
+      "value": 1,
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
@@ -2810,6 +3404,17 @@
       "name": "Platelets",
       "date": "2025-10-14",
       "value": 1,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Critical Result Comment A critically low platelet count does not necessarily mandate platelet transfusion. Clinical correlation is required.",
+      "isCritical": true,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2025-10-21",
+      "value": 9,
       "units": "x10**9/L",
       "refLow": 140,
       "refHigh": 400,
@@ -2928,6 +3533,17 @@
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
+      "name": "Platelets",
+      "date": "2026-02-02",
+      "value": 616,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
+    },
+    {
       "name": "RBC",
       "date": "2025-02-25",
       "value": 4.36,
@@ -3018,7 +3634,7 @@
     {
       "name": "RBC",
       "date": "2025-08-21",
-      "value": 2.56,
+      "value": 2.54,
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
@@ -3215,6 +3831,17 @@
     },
     {
       "name": "RBC",
+      "date": "2025-09-15",
+      "value": 3.15,
+      "units": "x10**12/L",
+      "refLow": 4.3,
+      "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RBC",
       "date": "2025-09-16",
       "value": 2.77,
       "units": "x10**12/L",
@@ -3239,6 +3866,17 @@
       "name": "RBC",
       "date": "2025-09-18",
       "value": 2.74,
+      "units": "x10**12/L",
+      "refLow": 4.3,
+      "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RBC",
+      "date": "2025-09-19",
+      "value": 2.6,
       "units": "x10**12/L",
       "refLow": 4.3,
       "refHigh": 6,
@@ -3533,9 +4171,31 @@
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
+      "name": "RBC",
+      "date": "2026-02-02",
+      "value": 4.24,
+      "units": "x10**12/L",
+      "refLow": 4.3,
+      "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
+    },
+    {
       "name": "RDW",
       "date": "2025-02-25",
       "value": 13.5,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-07-18",
+      "value": 14.2,
       "units": "%",
       "refLow": null,
       "refHigh": 16,
@@ -3612,7 +4272,18 @@
     {
       "name": "RDW",
       "date": "2025-08-21",
-      "value": 14.8,
+      "value": 14.9,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-08-22",
+      "value": 15.1,
       "units": "%",
       "refLow": null,
       "refHigh": 16,
@@ -3624,6 +4295,17 @@
       "name": "RDW",
       "date": "2025-08-25",
       "value": 16.8,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-08-27",
+      "value": 17.2,
       "units": "%",
       "refLow": null,
       "refHigh": 16,
@@ -3787,6 +4469,17 @@
     },
     {
       "name": "RDW",
+      "date": "2025-09-15",
+      "value": 17,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
       "date": "2025-09-16",
       "value": 16.7,
       "units": "%",
@@ -3798,7 +4491,40 @@
     },
     {
       "name": "RDW",
+      "date": "2025-09-17",
+      "value": 16.7,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
       "date": "2025-09-18",
+      "value": 16.7,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-09-19",
+      "value": 16.6,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-09-20",
       "value": 16.7,
       "units": "%",
       "refLow": null,
@@ -3844,6 +4570,28 @@
       "name": "RDW",
       "date": "2025-09-25",
       "value": 16.4,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-09-26",
+      "value": 16.2,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-09-27",
+      "value": 16.2,
       "units": "%",
       "refLow": null,
       "refHigh": 16,
@@ -3910,6 +4658,17 @@
       "name": "RDW",
       "date": "2025-10-14",
       "value": 16.7,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2025-10-21",
+      "value": 16,
       "units": "%",
       "refLow": null,
       "refHigh": 16,
@@ -4017,6 +4776,17 @@
       "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
     },
     {
+      "name": "RDW",
+      "date": "2026-02-02",
+      "value": 22.7,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
+    },
+    {
       "name": "WBC",
       "date": "2025-02-25",
       "value": 3.4,
@@ -4107,7 +4877,7 @@
     {
       "name": "WBC",
       "date": "2025-08-21",
-      "value": 2.3,
+      "value": 2.8,
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,
@@ -4339,6 +5109,17 @@
       "name": "WBC",
       "date": "2025-09-18",
       "value": 4,
+      "units": "x10**9/L",
+      "refLow": 4,
+      "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "dad-labs-2025-02-02_to_2026-02-01.pdf"
+    },
+    {
+      "name": "WBC",
+      "date": "2025-09-19",
+      "value": 4.8,
       "units": "x10**9/L",
       "refLow": 4,
       "refHigh": 11,

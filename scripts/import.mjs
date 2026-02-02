@@ -136,10 +136,18 @@ async function parseMyHealthPdf(pdfPath, sourceFile) {
   const pages = await extractPdfPagesText(pdfPath);
   const points = [];
 
+  // Some MyHealth lab sections spill a single lab panel across multiple pages.
+  // Only the first page includes the "Status: Final <date>" header; following pages
+  // often omit it. We carry the last-seen report date forward.
+  let currentDate = null;
+
   for (const pageText of pages) {
+    const headerDate = parseReportDate(pageText);
+    if (headerDate) currentDate = headerDate;
+
     if (!pageText.includes('Test Name')) continue;
 
-    const date = parseReportDate(pageText);
+    const date = currentDate;
     if (!date) continue;
 
     for (const t of TESTS) {
