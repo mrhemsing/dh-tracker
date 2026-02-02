@@ -124,10 +124,7 @@
           <h2>Ca <span class="abbr">(Calcium)</span></h2>
           <canvas id="ca"></canvas>
         </div>
-        <div class="card">
-          <h2>ALT <span class="abbr">(Alanine Aminotransferase)</span></h2>
-          <canvas id="alt"></canvas>
-        </div>
+        <div class="card" style="visibility:hidden"></div>
       </div>
 
       <div class="row">
@@ -325,7 +322,7 @@
         mkChart('alb', 'Albumin', by.Albumin ?? []);
         mkChart('tbil', 'Bilirubin, Total', by.BilirubinTotal ?? []);
         mkChart('ca', 'Calcium', by.Calcium ?? []);
-        mkChart('alt', 'ALT', by.ALT ?? []);
+        // ALT chart removed (no data)
         mkChart('phos', 'Phosphate', by.Phosphate ?? []);
 
         // Highlight the very first large gap (global across all points).

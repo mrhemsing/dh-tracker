@@ -29,7 +29,6 @@ const TESTS = [
   { outName: 'Albumin', testName: 'Albumin' },
   { outName: 'BilirubinTotal', testName: 'Bilirubin, Total' },
   { outName: 'Calcium', testName: 'Calcium' },
-  { outName: 'ALT', testName: 'Alanine Aminotransferase (ALT)' },
   { outName: 'Phosphate', testName: 'Phosphate' },
 ];
 
