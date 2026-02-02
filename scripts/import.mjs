@@ -15,17 +15,22 @@ const outDir = path.join(repoRoot, 'data');
 const outPath = path.join(outDir, 'biomarkers.json');
 
 const TESTS = [
-  // Dashboard series
+  // CBC + differential
   { outName: 'Platelets', testName: 'Platelets' },
   { outName: 'WBC', testName: 'Auto WBC' },
   { outName: 'Hemoglobin', testName: 'Hemoglobin' },
   { outName: 'ANC', testName: 'Neutrophil Absolute' },
-
-  // Nice-to-have extras for future UI
   { outName: 'RBC', testName: 'RBC' },
   { outName: 'Hematocrit', testName: 'Hematocrit' },
   { outName: 'MCV', testName: 'MCV' },
   { outName: 'RDW', testName: 'RDW' },
+
+  // Basic chemistry (as seen in MyHealth exports)
+  { outName: 'Albumin', testName: 'Albumin' },
+  { outName: 'BilirubinTotal', testName: 'Bilirubin, Total' },
+  { outName: 'Calcium', testName: 'Calcium' },
+  { outName: 'ALT', testName: 'Alanine Aminotransferase (ALT)' },
+  { outName: 'Phosphate', testName: 'Phosphate' },
 ];
 
 function escapeRegExp(s) {
