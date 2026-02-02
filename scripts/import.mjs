@@ -24,6 +24,13 @@ const TESTS = [
   { outName: 'Hematocrit', testName: 'Hematocrit' },
   { outName: 'MCV', testName: 'MCV' },
   { outName: 'RDW', testName: 'RDW' },
+
+  // Basic chemistry (as seen in MyHealth exports)
+  { outName: 'Albumin', testName: 'Albumin' },
+  { outName: 'BilirubinTotal', testName: 'Bilirubin, Total' },
+  { outName: 'Calcium', testName: 'Calcium' },
+  { outName: 'ALT', testName: 'Alanine Aminotransferase (ALT)' },
+  { outName: 'Phosphate', testName: 'Phosphate' },
 ];
 
 function escapeRegExp(s) {
