@@ -203,13 +203,50 @@
         const values = points.map(p => p.value);
         const rr = getRefRange(points);
 
-        const lastDate = points.length ? points[points.length - 1].date : null;
+        const last = points.length ? points[points.length - 1] : null;
+        const lastDate = last ? last.date : null;
+        const lastValue = last ? last.value : null;
+
         const pointRadius = points.map(p => (p.date === lastDate ? 5 : (p.isCritical ? 4 : 2)));
         const pointBg = points.map(p => (
           p.date === lastDate
             ? '#14532d' // dark green (latest)
             : (p.isCritical ? 'rgba(220, 38, 38, 0.95)' : '#0b63ce')
         ));
+
+        const latestMarkerPlugin = {
+          id: `latestMarker-${id}`,
+          afterDatasetsDraw(chart) {
+            if (!lastDate) return;
+            const { ctx, chartArea, scales } = chart;
+            const x = scales.x;
+            if (!x) return;
+
+            const idx = labels.lastIndexOf(lastDate);
+            if (idx < 0) return;
+
+            // Draw a subtle vertical line at the latest point.
+            const xPos = x.getPixelForTick(idx);
+            if (!Number.isFinite(xPos)) return;
+
+            ctx.save();
+            ctx.strokeStyle = 'rgba(20, 83, 45, 0.28)';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(xPos, chartArea.top);
+            ctx.lineTo(xPos, chartArea.bottom);
+            ctx.stroke();
+
+            // Label in top-right corner of chart area.
+            const text = `Latest: ${lastValue ?? '—'} (${lastDate})`;
+            ctx.fillStyle = 'rgba(20, 83, 45, 0.95)';
+            ctx.font = '600 12px system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif';
+            ctx.textAlign = 'right';
+            ctx.textBaseline = 'top';
+            ctx.fillText(text, chartArea.right - 6, chartArea.top + 6);
+            ctx.restore();
+          }
+        };
 
         return new Chart(canvas, {
           type: 'line',
@@ -251,7 +288,7 @@
               normalRangePlugin: { low: rr.low, high: rr.high }
             }
           },
-          plugins: [normalRangePlugin]
+          plugins: [normalRangePlugin, latestMarkerPlugin]
         });
       }
 
