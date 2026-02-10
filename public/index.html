@@ -277,6 +277,18 @@
                 type: 'category',
                 ticks: {
                   maxTicksLimit: 12,
+                  autoSkip: true,
+                  callback: function(value, index, ticks) {
+                    const lbl = this.getLabelForValue(value);
+                    // Always show first + last tick so the newest date is visible.
+                    if (index === 0 || index === ticks.length - 1) return lbl;
+
+                    // Show a few evenly spaced interior ticks.
+                    const step = Math.max(1, Math.floor(ticks.length / 6));
+                    if (index % step === 0) return lbl;
+
+                    return '';
+                  },
                   color: (ctx) => (ctx.tick && ctx.tick.label === lastDate ? '#14532d' : '#666'),
                   font: (ctx) => (ctx.tick && ctx.tick.label === lastDate ? { weight: 'bold' } : {}),
                 },
