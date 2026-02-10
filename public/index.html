@@ -203,11 +203,11 @@
         const values = points.map(p => p.value);
         const rr = getRefRange(points);
 
-        const firstDate = points.length ? points[0].date : null;
-        const pointRadius = points.map(p => (p.date === firstDate ? 4 : (p.isCritical ? 4 : 2)));
+        const lastDate = points.length ? points[points.length - 1].date : null;
+        const pointRadius = points.map(p => (p.date === lastDate ? 5 : (p.isCritical ? 4 : 2)));
         const pointBg = points.map(p => (
-          p.date === firstDate
-            ? '#14532d' // dark green
+          p.date === lastDate
+            ? '#14532d' // dark green (latest)
             : (p.isCritical ? 'rgba(220, 38, 38, 0.95)' : '#0b63ce')
         ));
 
@@ -240,8 +240,8 @@
                 type: 'category',
                 ticks: {
                   maxTicksLimit: 12,
-                  color: (ctx) => (ctx.tick && ctx.tick.label === firstDate ? '#14532d' : '#666'),
-                  font: (ctx) => (ctx.tick && ctx.tick.label === firstDate ? {} : {}),
+                  color: (ctx) => (ctx.tick && ctx.tick.label === lastDate ? '#14532d' : '#666'),
+                  font: (ctx) => (ctx.tick && ctx.tick.label === lastDate ? { weight: 'bold' } : {}),
                 },
               },
               y: { beginAtZero: false },
