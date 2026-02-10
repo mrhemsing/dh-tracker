@@ -309,10 +309,29 @@
         if (rd) rd.textContent = rangeDesktop;
         if (rm) rm.textContent = rangeMobile;
 
+        function latestFor(arr) {
+          if (!arr || !arr.length) return null;
+          const last = arr[arr.length - 1];
+          return last ? { date: last.date, value: last.value, units: last.units } : null;
+        }
+
+        const latest = {
+          PLT: latestFor(by.Platelets || []),
+          WBC: latestFor(by.WBC || []),
+          Hgb: latestFor(by.Hemoglobin || []),
+          ANC: latestFor(by.ANC || []),
+          RBC: latestFor(by.RBC || []),
+          Hct: latestFor(by.Hematocrit || []),
+          MCV: latestFor(by.MCV || []),
+          RDW: latestFor(by.RDW || []),
+        };
+
+        const latestLine = `Latest values: PLT ${latest.PLT?.value ?? '—'} (${latest.PLT?.date ?? '—'}), WBC ${latest.WBC?.value ?? '—'} (${latest.WBC?.date ?? '—'}), Hgb ${latest.Hgb?.value ?? '—'} (${latest.Hgb?.date ?? '—'}), ANC ${latest.ANC?.value ?? '—'} (${latest.ANC?.date ?? '—'})`;
+
         if (isMobile) {
-          statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br><span class="loaded-line">Loaded ${points.length} pts. (PLT: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hgb: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})</span>`;
+          statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br><span class="loaded-line">Loaded ${points.length} pts. (PLT: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hgb: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})</span><br><span class="loaded-line">${latestLine}</span>`;
         } else {
-          statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br/>Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})`;
+          statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br/>Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})<br/>${latestLine}`;
         }
 
         mkChart('plt', 'Platelets', by.Platelets ?? []);
