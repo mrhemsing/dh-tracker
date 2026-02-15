@@ -44,9 +44,12 @@
       .gap-note { margin-top: 12px; color: #444; }
       .gap-arrow { display: inline-block; vertical-align: -2px; margin: 0 3px; }
       .gap-arrow svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 2.6; fill: none; }
-      canvas { max-width: 100%; }
+      canvas { width: 100% !important; max-width: 100%; }
+      /* Keep Ca/PO4 from feeling oversized when shown side-by-side on desktop */
+      #ca, #phos { max-height: 220px; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .row.single { grid-template-columns: 1fr; }
       @media (max-width: 900px) {
         .row { grid-template-columns: 1fr; }
         /* On small screens, hide placeholder cards so they don't create blank vertical gaps. */
@@ -132,15 +135,10 @@
           <h2>Ca <span class="abbr">(Calcium)</span></h2>
           <canvas id="ca"></canvas>
         </div>
-        <div class="card placeholder"></div>
-      </div>
-
-      <div class="row">
         <div class="card">
           <h2>PO4 <span class="abbr">(Phosphate)</span></h2>
           <canvas id="phos"></canvas>
         </div>
-        <div class="card placeholder"></div>
       </div>
     </div>
 
@@ -280,6 +278,8 @@
                 type: 'category',
                 ticks: {
                   maxTicksLimit: 12,
+                  minRotation: 40,
+                  maxRotation: 40,
                   color: (ctx) => (ctx.tick && ctx.tick.label === lastDate ? '#14532d' : '#666'),
                   font: (ctx) => (ctx.tick && ctx.tick.label === lastDate ? { weight: 'bold' } : {}),
                 },
