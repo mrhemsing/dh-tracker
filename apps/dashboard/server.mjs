@@ -21,10 +21,10 @@ app.get('/api/biomarkers', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'web', 'index.html'));
+  res.sendFile(path.join(repoRoot, 'public', 'index.html'));
 });
 
-app.use('/static', express.static(path.join(__dirname, 'web', 'static')));
+app.use(express.static(path.join(repoRoot, 'public')));
 
 app.listen(port, '127.0.0.1', () => {
   console.log(`dh-tracker dashboard: http://127.0.0.1:${port}/`);

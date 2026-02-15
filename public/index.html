@@ -7,13 +7,15 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>DMH Tracker</title>
     <style>
-      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 18px 24px 24px; padding-top: 0px; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 18px 24px 24px; padding-top: 0; }
       .bottom-spacer { height: 60px; }
 
-      .site-header { display: flex; align-items: center; gap: 14px; margin-bottom: 6px; }
+      .site-header { display: flex; align-items: center; gap: 14px; margin-top: 10px; margin-bottom: 6px; }
       .site-logo { width: 54px; height: 54px; flex: 0 0 auto; }
       h1 { color: #800020; margin: 0; }
       .muted { color: #666; }
+      #status { color: #000; }
+      #status .loaded-line { color: #666; }
       .abbr { color: #555; font-weight: 500; }
       h2 { margin-bottom: 6px; }
       .subtitle { margin-top: 0; margin-bottom: 12px; }
@@ -22,6 +24,7 @@
 
       /* Mobile tweaks */
       @media (max-width: 600px) {
+        .site-header { margin-top: 22px; }
         .site-logo { width: 44px; height: 44px; }
         .abbr { font-size: 0.9em; }
         #status { font-size: 0.92em; }
@@ -368,7 +371,7 @@
         if (isMobile) {
           statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br><span class="loaded-line">Loaded ${points.length} pts. (PLT: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hgb: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})</span><br><span class="loaded-line">${latestLine}</span>`;
         } else {
-          statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br/>Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})<br/>${latestLine}`;
+          statusEl.innerHTML = `Last Updated: ${lastUpdatedText}<br/><span class="loaded-line">Loaded ${points.length} points. (Platelets: ${(by.Platelets||[]).length}, WBC: ${(by.WBC||[]).length}, Hemoglobin: ${(by.Hemoglobin||[]).length}, ANC: ${(by.ANC||[]).length}, RBC: ${(by.RBC||[]).length}, Hct: ${(by.Hematocrit||[]).length}, MCV: ${(by.MCV||[]).length}, RDW: ${(by.RDW||[]).length})</span><br/><span class="loaded-line">${latestLine}</span>`;
         }
 
         mkChart('plt', 'Platelets', by.Platelets ?? []);
