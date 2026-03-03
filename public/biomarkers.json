@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T17:34:36.713Z",
+  "generatedAt": "2026-03-03T21:47:45.402Z",
   "points": [
     {
       "name": "Albumin",
@@ -693,6 +693,17 @@
       "abnormality": "Below normal range",
       "isCritical": false,
       "source": "2026-02-23-myhealth-report.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2026-03-03",
+      "value": 0.9,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
     },
     {
       "name": "BilirubinTotal",
@@ -1652,6 +1663,17 @@
       "source": "2026-02-23-myhealth-report.pdf"
     },
     {
+      "name": "Hematocrit",
+      "date": "2026-03-03",
+      "value": 0.39,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
+    },
+    {
       "name": "Hemoglobin",
       "date": "2025-02-25",
       "value": 141,
@@ -2299,6 +2321,17 @@
       "abnormality": "Below normal range",
       "isCritical": false,
       "source": "2026-02-23-myhealth-report.pdf"
+    },
+    {
+      "name": "Hemoglobin",
+      "date": "2026-03-03",
+      "value": 118,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
     },
     {
       "name": "MCV",
@@ -2959,6 +2992,17 @@
       "abnormality": null,
       "isCritical": false,
       "source": "2026-02-23-myhealth-report.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2026-03-03",
+      "value": 87,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
     },
     {
       "name": "Phosphate",
@@ -3654,6 +3698,17 @@
       "source": "2026-02-23-myhealth-report.pdf"
     },
     {
+      "name": "Platelets",
+      "date": "2026-03-03",
+      "value": 484,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
+    },
+    {
       "name": "RBC",
       "date": "2025-02-25",
       "value": 4.36,
@@ -4314,6 +4369,17 @@
       "source": "2026-02-23-myhealth-report.pdf"
     },
     {
+      "name": "RBC",
+      "date": "2026-03-03",
+      "value": 4.44,
+      "units": "x10**12/L",
+      "refLow": 4.3,
+      "refHigh": 6,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
+    },
+    {
       "name": "RDW",
       "date": "2025-02-25",
       "value": 13.5,
@@ -4939,6 +5005,17 @@
       "abnormality": "Above normal range",
       "isCritical": false,
       "source": "2026-02-23-myhealth-report.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2026-03-03",
+      "value": 22.4,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
     },
     {
       "name": "WBC",
@@ -5610,6 +5687,17 @@
       "abnormality": "Below normal range",
       "isCritical": false,
       "source": "2026-02-23-myhealth-report.pdf"
+    },
+    {
+      "name": "WBC",
+      "date": "2026-03-03",
+      "value": 2.2,
+      "units": "x10**9/L",
+      "refLow": 4,
+      "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Mar_03_2026_14_42_35.pdf"
     }
   ],
   "events": []
