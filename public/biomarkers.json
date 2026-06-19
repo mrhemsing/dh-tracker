@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T20:09:28.884Z",
+  "generatedAt": "2026-06-19T17:32:17.516Z",
   "points": [
     {
       "name": "Albumin",
@@ -992,6 +992,18 @@
       "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
     },
     {
+      "name": "BilirubinTotal",
+      "date": "2026-06-19",
+      "value": 13,
+      "units": "umol/L",
+      "qualifier": null,
+      "refLow": null,
+      "refHigh": 20,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
+    },
+    {
       "name": "Calcium",
       "date": "2025-02-25",
       "value": 2.31,
@@ -1067,6 +1079,30 @@
       "abnormality": null,
       "isCritical": false,
       "source": "dad-labs-2026-01-27_to_2026-02-02.pdf"
+    },
+    {
+      "name": "CRP",
+      "date": "2026-06-19",
+      "value": 5,
+      "units": "mg/L",
+      "qualifier": "<",
+      "refLow": null,
+      "refHigh": 10,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
+    },
+    {
+      "name": "GlucoseRandom",
+      "date": "2026-06-19",
+      "value": 9.7,
+      "units": "mmol/L",
+      "qualifier": null,
+      "refLow": 3.3,
+      "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
     },
     {
       "name": "Hematocrit",
@@ -2563,6 +2599,30 @@
       "abnormality": "Below normal range",
       "isCritical": false,
       "source": "Report_Jun_01_2026_14_06_46---cfc98095-c62f-41da-bc4e-39628de25c0d.pdf"
+    },
+    {
+      "name": "Lipase",
+      "date": "2026-06-19",
+      "value": 16,
+      "units": "U/L",
+      "qualifier": null,
+      "refLow": null,
+      "refHigh": 80,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
+    },
+    {
+      "name": "Magnesium",
+      "date": "2026-06-19",
+      "value": 0.84,
+      "units": "mmol/L",
+      "qualifier": null,
+      "refLow": 0.7,
+      "refHigh": 1,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
     },
     {
       "name": "MCV",

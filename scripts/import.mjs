@@ -29,6 +29,10 @@ const TESTS = [
   { outName: 'Albumin', testName: 'Albumin' },
   { outName: 'BilirubinTotal', testName: 'Bilirubin, Total' },
   { outName: 'Calcium', testName: 'Calcium' },
+  { outName: 'CRP', testName: 'C-Reactive Protein (CRP)' },
+  { outName: 'GlucoseRandom', testName: 'Glucose, Random' },
+  { outName: 'Lipase', testName: 'Lipase' },
+  { outName: 'Magnesium', testName: 'Magnesium' },
   { outName: 'Phosphate', testName: 'Phosphate' },
 ];
 
@@ -54,7 +58,7 @@ function extractResult(text, testName) {
   //  "Test Name Hematocrit Result 0.35 L/L Reference Range (Units) 0.40-0.52 (L/L)"
 
   const re = new RegExp(
-    `Test Name\\s+${escapeRegExp(testName)}\\s+Result\\s+([0-9.]+)\\s+([^\\s]+)` +
+    `Test Name\\s+${escapeRegExp(testName)}\\s+Result\\s+([<>]=?)?\\s*([0-9.]+)\\s+([^\\s]+)` +
     // optional reference range segment (we don't depend on exact units formatting)
     `(?:\\s+Reference Range\\s*\\(Units\\)\\s+([^\\s]+)\\s*\\(([^)]+)\\))?` +
     // optional abnormality segment
@@ -67,15 +71,16 @@ function extractResult(text, testName) {
   const m = text.match(re);
   if (!m) return null;
 
-  const value = Number(m[1]);
-  const units = m[2];
+  const qualifier = m[1] || null;
+  const value = Number(m[2]);
+  const units = m[3];
 
   // Parse reference range token if present.
   // token examples: "4.0-11.0", "<16.0", ">=5" (unlikely), etc.
   let refLow = null;
   let refHigh = null;
 
-  const token = m[3];
+  const token = m[4];
   if (token) {
     const t = token.trim();
 
@@ -104,14 +109,14 @@ function extractResult(text, testName) {
   }
 
   let abnormality = null;
-  if (m[5]) {
-    const a = m[5].trim();
+  if (m[6]) {
+    const a = m[6].trim();
     if (a !== '-' && a !== '–') abnormality = a;
   }
 
   const isCritical = abnormality ? /\bcritical\b/i.test(abnormality) : false;
 
-  return { value, units, refLow, refHigh, abnormality, isCritical };
+  return { value, units, qualifier, refLow, refHigh, abnormality, isCritical };
 }
 
 async function extractPdfPagesText(pdfPath) {
@@ -159,6 +164,7 @@ async function parseMyHealthPdf(pdfPath, sourceFile) {
         date,
         value: r.value,
         units: r.units,
+        qualifier: r.qualifier,
         refLow: r.refLow,
         refHigh: r.refHigh,
         abnormality: r.abnormality,

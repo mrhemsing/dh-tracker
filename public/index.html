@@ -46,7 +46,7 @@
       .gap-arrow svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 2.6; fill: none; }
       canvas { width: 100% !important; max-width: 100%; }
       /* Keep Ca/PO4 from feeling oversized when shown side-by-side on desktop */
-      #ca, #phos { max-height: 220px; }
+      #ca, #phos, #mag, #glu, #crp, #lipase { max-height: 220px; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
       .row.single { grid-template-columns: 1fr; }
@@ -140,6 +140,28 @@
           <canvas id="phos"></canvas>
         </div>
       </div>
+
+      <div class="row">
+        <div class="card">
+          <h2>Mg <span class="abbr">(Magnesium)</span></h2>
+          <canvas id="mag"></canvas>
+        </div>
+        <div class="card">
+          <h2>Glucose <span class="abbr">(Random)</span></h2>
+          <canvas id="glu"></canvas>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <h2>CRP <span class="abbr">(C-Reactive Protein)</span></h2>
+          <canvas id="crp"></canvas>
+        </div>
+        <div class="card">
+          <h2>Lipase</h2>
+          <canvas id="lipase"></canvas>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -198,6 +220,11 @@
         return { low: null, high: null };
       }
 
+      function formatPointValue(point) {
+        if (!point) return '—';
+        return `${point.qualifier || ''}${point.value ?? '—'}`;
+      }
+
       function mkChart(id, label, points) {
         const canvas = document.getElementById(id);
         const labels = points.map(p => p.date);
@@ -206,7 +233,6 @@
 
         const last = points.length ? points[points.length - 1] : null;
         const lastDate = last ? last.date : null;
-        const lastValue = last ? last.value : null;
 
         const pointRadius = points.map(p => (p.date === lastDate ? 5 : (p.isCritical ? 4 : 2)));
         const pointBg = points.map(p => (
@@ -239,7 +265,7 @@
             ctx.stroke();
 
             // Label in top-right corner of chart area.
-            const text = `Latest: ${lastValue ?? '—'} (${lastDate})`;
+            const text = `Latest: ${formatPointValue(last)} (${lastDate})`;
             ctx.fillStyle = 'rgba(20, 83, 45, 0.95)';
             ctx.font = '600 12px system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif';
             ctx.textAlign = 'right';
@@ -367,6 +393,10 @@
           Hct: latestFor(by.Hematocrit || []),
           MCV: latestFor(by.MCV || []),
           RDW: latestFor(by.RDW || []),
+          Mg: latestFor(by.Magnesium || []),
+          Glucose: latestFor(by.GlucoseRandom || []),
+          CRP: latestFor(by.CRP || []),
+          Lipase: latestFor(by.Lipase || []),
         };
 
         const latestLine = `Latest values: PLT ${latest.PLT?.value ?? '—'} (${latest.PLT?.date ?? '—'}), WBC ${latest.WBC?.value ?? '—'} (${latest.WBC?.date ?? '—'}), Hgb ${latest.Hgb?.value ?? '—'} (${latest.Hgb?.date ?? '—'}), ANC ${latest.ANC?.value ?? '—'} (${latest.ANC?.date ?? '—'})`;
@@ -391,6 +421,10 @@
         mkChart('ca', 'Calcium', by.Calcium ?? []);
         // ALT chart removed (no data)
         mkChart('phos', 'Phosphate', by.Phosphate ?? []);
+        mkChart('mag', 'Magnesium', by.Magnesium ?? []);
+        mkChart('glu', 'Glucose, Random', by.GlucoseRandom ?? []);
+        mkChart('crp', 'C-Reactive Protein', by.CRP ?? []);
+        mkChart('lipase', 'Lipase', by.Lipase ?? []);
 
         // Highlight the very first large gap (global across all points).
         const uniqueDates = Array.from(new Set(points.map(p => p.date))).sort();
