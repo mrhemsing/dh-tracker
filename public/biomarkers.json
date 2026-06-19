@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T17:32:17.516Z",
+  "generatedAt": "2026-06-19T17:46:11.053Z",
   "points": [
     {
       "name": "Albumin",
@@ -2601,6 +2601,17 @@
       "source": "Report_Jun_01_2026_14_06_46---cfc98095-c62f-41da-bc4e-39628de25c0d.pdf"
     },
     {
+      "name": "Hemoglobin",
+      "date": "2026-06-19",
+      "value": 136,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "manual-message-2026-06-19"
+    },
+    {
       "name": "Lipase",
       "date": "2026-06-19",
       "value": 16,
@@ -4152,6 +4163,17 @@
       "abnormality": "Above normal range",
       "isCritical": false,
       "source": "Report_Jun_01_2026_14_06_46---cfc98095-c62f-41da-bc4e-39628de25c0d.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2026-06-19",
+      "value": 186,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "manual-message-2026-06-19"
     },
     {
       "name": "RBC",
