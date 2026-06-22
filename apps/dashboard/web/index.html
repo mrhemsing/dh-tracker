@@ -9,7 +9,11 @@
       .muted { color: #666; }
       .grid { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 1200px; }
       .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; }
-      canvas { max-width: 100%; }
+      canvas {
+        max-width: 100%;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+      }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
       .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
       @media (max-width: 900px) { .row { grid-template-columns: 1fr; } }
@@ -63,6 +67,7 @@
     <script>
       function mkChart(id, label, points) {
         const canvas = document.getElementById(id);
+        const isCoarsePointer = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
         const labels = points.map(p => p.date);
         const values = points.map(p => p.value);
 
@@ -76,11 +81,19 @@
               borderColor: '#0b63ce',
               backgroundColor: 'rgba(11, 99, 206, 0.08)',
               tension: 0.2,
-              pointRadius: 2,
+              pointRadius: isCoarsePointer ? 4 : 2,
+              pointHitRadius: isCoarsePointer ? 24 : 14,
+              pointHoverRadius: isCoarsePointer ? 8 : 6,
+              pointHoverBorderWidth: 2,
             }]
           },
           options: {
             responsive: true,
+            interaction: {
+              mode: 'nearest',
+              axis: 'x',
+              intersect: false
+            },
             scales: {
               x: {
                 type: 'category',
@@ -88,7 +101,14 @@
               },
               y: { beginAtZero: false },
             },
-            plugins: { legend: { display: false } }
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                mode: 'nearest',
+                axis: 'x',
+                intersect: false
+              }
+            }
           }
         });
       }

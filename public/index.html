@@ -44,7 +44,12 @@
       .gap-note { margin-top: 12px; color: #444; }
       .gap-arrow { display: inline-block; vertical-align: -2px; margin: 0 3px; }
       .gap-arrow svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 2.6; fill: none; }
-      canvas { width: 100% !important; max-width: 100%; }
+      canvas {
+        width: 100% !important;
+        max-width: 100%;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+      }
       /* Keep Ca/PO4 from feeling oversized when shown side-by-side on desktop */
       #ca, #phos, #mag, #glu, #crp, #lipase { max-height: 220px; }
       code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
@@ -227,6 +232,7 @@
 
       function mkChart(id, label, points) {
         const canvas = document.getElementById(id);
+        const isCoarsePointer = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
         const labels = points.map(p => p.date);
         const values = points.map(p => p.value);
         const rr = getRefRange(points);
@@ -234,7 +240,11 @@
         const last = points.length ? points[points.length - 1] : null;
         const lastDate = last ? last.date : null;
 
-        const pointRadius = points.map(p => (p.date === lastDate ? 5 : (p.isCritical ? 4 : 2)));
+        const pointRadius = points.map(p => {
+          if (p.date === lastDate) return isCoarsePointer ? 7 : 5;
+          if (p.isCritical) return isCoarsePointer ? 6 : 4;
+          return isCoarsePointer ? 4 : 2;
+        });
         const pointBg = points.map(p => (
           p.date === lastDate
             ? '#14532d' // dark green (latest)
@@ -286,6 +296,9 @@
               backgroundColor: 'rgba(11, 99, 206, 0.08)',
               tension: 0.2,
               pointRadius,
+              pointHitRadius: isCoarsePointer ? 24 : 14,
+              pointHoverRadius: isCoarsePointer ? 8 : 6,
+              pointHoverBorderWidth: 2,
               pointBackgroundColor: pointBg,
             }]
           },
@@ -298,6 +311,11 @@
             transitions: {
               active: { animation: { duration: 400 } },
               resize: { animation: { duration: 0 } },
+            },
+            interaction: {
+              mode: 'nearest',
+              axis: 'x',
+              intersect: false
             },
             scales: {
               x: {
@@ -314,6 +332,11 @@
             },
             plugins: {
               legend: { display: false },
+              tooltip: {
+                mode: 'nearest',
+                axis: 'x',
+                intersect: false
+              },
               normalRangePlugin: { low: rr.low, high: rr.high }
             }
           },
