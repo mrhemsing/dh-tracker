@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T19:39:09.675Z",
+  "generatedAt": "2026-07-30T01:24:49.484Z",
   "points": [
     {
       "name": "Albumin",
@@ -794,6 +794,39 @@
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
     },
     {
+      "name": "ANC",
+      "date": "2026-07-15",
+      "value": 2.2,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "ANC",
+      "date": "2026-07-29",
+      "value": 2.8,
+      "units": "x10**9/L",
+      "refLow": 1.8,
+      "refHigh": 7.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "Basophils Absolute",
+      "date": "2026-07-15",
+      "value": 0,
+      "units": "x10**9/L",
+      "refLow": 0,
+      "refHigh": 0.3,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
       "name": "BilirubinTotal",
       "date": "2025-02-25",
       "value": 14,
@@ -1102,6 +1135,17 @@
       "abnormality": null,
       "isCritical": false,
       "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
+    },
+    {
+      "name": "Eosinophils Absolute",
+      "date": "2026-07-15",
+      "value": 0.1,
+      "units": "x10**9/L",
+      "refLow": 0,
+      "refHigh": 0.7,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
       "name": "GlucoseRandom",
@@ -1886,6 +1930,28 @@
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
     },
     {
+      "name": "Hematocrit",
+      "date": "2026-07-15",
+      "value": 0.41,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "Hematocrit",
+      "date": "2026-07-29",
+      "value": 0.4,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
       "name": "Hemoglobin",
       "date": "2025-02-25",
       "value": 141,
@@ -2645,6 +2711,50 @@
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
     },
     {
+      "name": "Hemoglobin",
+      "date": "2026-07-15",
+      "value": 135,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "Hemoglobin",
+      "date": "2026-07-29",
+      "value": 131,
+      "units": "g/L",
+      "refLow": 135,
+      "refHigh": 175,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "Immature Granulocytes Absolute",
+      "date": "2026-07-15",
+      "value": 0,
+      "units": "x10**9/L",
+      "refLow": 0,
+      "refHigh": 0.1,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "Immature Granulocytes Absolute",
+      "date": "2026-07-29",
+      "value": 0,
+      "units": "x10**9/L",
+      "refLow": 0,
+      "refHigh": 0.1,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
       "name": "Lipase",
       "date": "2026-06-19",
       "value": 16,
@@ -2657,6 +2767,17 @@
       "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
     },
     {
+      "name": "Lymphocytes Absolute",
+      "date": "2026-07-29",
+      "value": 0.7,
+      "units": "x10**9/L",
+      "refLow": 0.5,
+      "refHigh": 4.5,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
       "name": "Magnesium",
       "date": "2026-06-19",
       "value": 0.84,
@@ -2667,6 +2788,28 @@
       "abnormality": null,
       "isCritical": false,
       "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
+    },
+    {
+      "name": "MCHC",
+      "date": "2026-07-15",
+      "value": 326,
+      "units": "g/L",
+      "refLow": 310,
+      "refHigh": 360,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "MCHC",
+      "date": "2026-07-29",
+      "value": 329,
+      "units": "g/L",
+      "refLow": 310,
+      "refHigh": 360,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
       "name": "MCV",
@@ -3426,6 +3569,39 @@
       "abnormality": null,
       "isCritical": false,
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2026-07-15",
+      "value": 101,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2026-07-29",
+      "value": 101,
+      "units": "fL",
+      "refLow": 80,
+      "refHigh": 100,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "Monocytes Absolute",
+      "date": "2026-07-29",
+      "value": 0.4,
+      "units": "x10**9/L",
+      "refLow": 0,
+      "refHigh": 1.1,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
       "name": "Phosphate",
@@ -4231,6 +4407,28 @@
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
     },
     {
+      "name": "Platelets",
+      "date": "2026-07-15",
+      "value": 265,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "Platelets",
+      "date": "2026-07-29",
+      "value": 213,
+      "units": "x10**9/L",
+      "refLow": 140,
+      "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
       "name": "RBC",
       "date": "2025-02-25",
       "value": 4.36,
@@ -4990,6 +5188,28 @@
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
     },
     {
+      "name": "RBC",
+      "date": "2026-07-15",
+      "value": 4.11,
+      "units": "x10**12/L",
+      "refLow": 4.3,
+      "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "RBC",
+      "date": "2026-07-29",
+      "value": 3.95,
+      "units": "x10**12/L",
+      "refLow": 4.3,
+      "refHigh": 6,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
       "name": "RDW",
       "date": "2025-02-25",
       "value": 13.5,
@@ -5714,6 +5934,28 @@
       "abnormality": "Above normal range",
       "isCritical": false,
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2026-07-15",
+      "value": 16.1,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2026-07-29",
+      "value": 15.3,
+      "units": "%",
+      "refLow": null,
+      "refHigh": 16,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
       "name": "WBC",
@@ -6484,6 +6726,28 @@
       "abnormality": "Below normal range",
       "isCritical": false,
       "source": "Report_Jul_09_2026_13_33_40---2b7b6551-ba21-4ec1-9ba7-162a03db8c8d.pdf"
+    },
+    {
+      "name": "WBC",
+      "date": "2026-07-15",
+      "value": 3.7,
+      "units": "x10**9/L",
+      "refLow": 4,
+      "refHigh": 11,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "WBC",
+      "date": "2026-07-29",
+      "value": 4,
+      "units": "x10**9/L",
+      "refLow": 4,
+      "refHigh": 11,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     }
   ],
   "events": []
