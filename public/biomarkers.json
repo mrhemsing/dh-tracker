@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T01:24:49.484Z",
+  "generatedAt": "2026-08-13T21:40:33.586Z",
   "points": [
     {
       "name": "Albumin",
@@ -816,6 +816,28 @@
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
+      "name": "ANC",
+      "date": "2026-08-12",
+      "value": 2.18,
+      "units": "x10**9/L",
+      "refLow": 2,
+      "refHigh": 6,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
+    },
+    {
+      "name": "Basophils",
+      "date": "2026-08-12",
+      "value": 0.02,
+      "units": "x10**9/L",
+      "refLow": 0,
+      "refHigh": 0.1,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
+    },
+    {
       "name": "Basophils Absolute",
       "date": "2026-07-15",
       "value": 0,
@@ -1135,6 +1157,17 @@
       "abnormality": null,
       "isCritical": false,
       "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
+    },
+    {
+      "name": "Eosinophils",
+      "date": "2026-08-12",
+      "value": 0.05,
+      "units": "x10**9/L",
+      "refLow": 0,
+      "refHigh": 0.45,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
     },
     {
       "name": "Eosinophils Absolute",
@@ -1952,6 +1985,17 @@
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
+      "name": "Hematocrit",
+      "date": "2026-08-12",
+      "value": 0.41,
+      "units": "L/L",
+      "refLow": 0.4,
+      "refHigh": 0.52,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
+    },
+    {
       "name": "Hemoglobin",
       "date": "2025-02-25",
       "value": 141,
@@ -2733,6 +2777,17 @@
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
+      "name": "Hemoglobin",
+      "date": "2026-08-12",
+      "value": 139,
+      "units": "g/L",
+      "refLow": 136,
+      "refHigh": 170,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
+    },
+    {
       "name": "Immature Granulocytes Absolute",
       "date": "2026-07-15",
       "value": 0,
@@ -2765,6 +2820,17 @@
       "abnormality": null,
       "isCritical": false,
       "source": "Report_Jun_19_2026_11_29_57---d0ac20c0-33eb-4c8c-ae4d-6e18f887257e.pdf"
+    },
+    {
+      "name": "Lymphocytes",
+      "date": "2026-08-12",
+      "value": 0.93,
+      "units": "x10**9/L",
+      "refLow": 1,
+      "refHigh": 4,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
     },
     {
       "name": "Lymphocytes Absolute",
@@ -3591,6 +3657,28 @@
       "abnormality": "Above normal range",
       "isCritical": false,
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "MCV",
+      "date": "2026-08-12",
+      "value": 100,
+      "units": "fL",
+      "refLow": 82,
+      "refHigh": 98,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
+    },
+    {
+      "name": "Monocytes",
+      "date": "2026-08-12",
+      "value": 0.32,
+      "units": "x10**9/L",
+      "refLow": 0.1,
+      "refHigh": 0.8,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
     },
     {
       "name": "Monocytes Absolute",
@@ -4429,6 +4517,17 @@
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
+      "name": "Platelets",
+      "date": "2026-08-12",
+      "value": 203,
+      "units": "x10**9/L",
+      "refLow": 150,
+      "refHigh": 400,
+      "abnormality": null,
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
+    },
+    {
       "name": "RBC",
       "date": "2025-02-25",
       "value": 4.36,
@@ -5210,6 +5309,17 @@
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
     },
     {
+      "name": "RBC",
+      "date": "2026-08-12",
+      "value": 4.12,
+      "units": "x10**12/L",
+      "refLow": 4.5,
+      "refHigh": 5.9,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
+    },
+    {
       "name": "RDW",
       "date": "2025-02-25",
       "value": 13.5,
@@ -5956,6 +6066,17 @@
       "abnormality": null,
       "isCritical": false,
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "RDW",
+      "date": "2026-08-12",
+      "value": 15.5,
+      "units": "%",
+      "refLow": 12.1,
+      "refHigh": 14.5,
+      "abnormality": "Above normal range",
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
     },
     {
       "name": "WBC",
@@ -6748,6 +6869,17 @@
       "abnormality": null,
       "isCritical": false,
       "source": "Report_Jul_29_2026_18_52_29---8999c4be-7f80-469f-8def-5d5206939f1d.pdf"
+    },
+    {
+      "name": "WBC",
+      "date": "2026-08-12",
+      "value": 3.5,
+      "units": "x10**9/L",
+      "refLow": 4,
+      "refHigh": 10.5,
+      "abnormality": "Below normal range",
+      "isCritical": false,
+      "source": "MyHealth_-_General_Laboratory---a34e9b8b-1bab-4c88-a99a-0e3c67b2d0a2.pdf"
     }
   ],
   "events": []
