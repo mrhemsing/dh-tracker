@@ -285,7 +285,7 @@
           }
         };
 
-        return new Chart(canvas, {
+        const chart = new Chart(canvas, {
           type: 'line',
           data: {
             labels,
@@ -342,6 +342,22 @@
           },
           plugins: [normalRangePlugin, latestMarkerPlugin]
         });
+
+        canvas.addEventListener('click', (event) => {
+          const hits = chart.getElementsAtEventForMode(
+            event,
+            'nearest',
+            { intersect: true },
+            false
+          );
+          if (hits.length) return;
+
+          chart.setActiveElements([]);
+          chart.tooltip.setActiveElements([], { x: event.offsetX, y: event.offsetY });
+          chart.update();
+        });
+
+        return chart;
       }
 
       async function run() {
